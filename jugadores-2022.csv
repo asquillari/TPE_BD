@@ -1,0 +1,715 @@
+Jugador;Posicion;Edad;Altura;Pie;Fichado;Equipo_Anterior;Valor_Mercado;Equipo
+Juan Manuel Cabrera;Defensa;22;;;;;;Argentinos Juniors
+Lucas Chaves;Portero;26;1.82;derecho;01/01/2015;Inferiores Argentinos Juniors;3000000;Argentinos Juniors
+Federico Lanzillotta;Portero;29;1.85;derecho;06/01/2016;Nueva Chicago;500000;Argentinos Juniors
+Leandro Finochietto;Portero;25;1.86;derecho;01/01/2019;Inferiores Argentinos Juniors;50000;Argentinos Juniors
+Miguel Ángel Acosta;Portero;20;1.89;derecho;;;25000;Argentinos Juniors
+Kevin Mac Allister;Defensa central;24;1.75;derecho;01/07/2017;Inferiores Argentinos Juniors;3200000;Argentinos Juniors
+Lucas Villalba;Defensa central;27;1.79;izquierdo;11/02/2021;Club Atlético Aldosivi;1200000;Argentinos Juniors
+Miguel Torrén;Defensa central;33;1.79;derecho;01/07/2011;CA Newell's Old Boys;575000;Argentinos Juniors
+Marco Di Cesare;Defensa central;20;1.86;derecho;01/01/2021;Inferiores Argentinos Juniors;300000;Argentinos Juniors
+Pablo Minissale;Defensa central;21;1.82;derecho;01/07/2021;Inferiores Argentinos Juniors;75000;Argentinos Juniors
+Mariano Bíttolo;Lateral izquierdo;32;1.74;izquierdo;25/01/2022;CA Newell's Old Boys;750000;Argentinos Juniors
+Leonel González;Lateral izquierdo;28;1.79;izquierdo;11/07/2022;CD Godoy Cruz Antonio Tomba;475000;Argentinos Juniors
+Enzo Ybáñez;Lateral izquierdo;23;1.73;izquierdo;01/07/2018;Inferiores Argentinos Juniors;150000;Argentinos Juniors
+Román Vega;Lateral izquierdo;18;1.77;izquierdo;;;;Argentinos Juniors
+Luciano Gómez;Lateral derecho;26;1.64;derecho;04/01/2022;CA Banfield;350000;Argentinos Juniors
+Luciano Sánchez;Lateral derecho;28;1.69;derecho;05/02/2022;Independiente Rivadavia;125000;Argentinos Juniors
+Fausto Vera;Pivote;22;1.8;derecho;01/07/2019;Inferiores Argentinos Juniors;6000000;Argentinos Juniors
+Matías Lugo;Pivote;21;1.7;;;;;Argentinos Juniors
+Federico Redondo;Pivote;19;1.88;derecho;01/07/2022;Inferiores Argentinos Juniors;;Argentinos Juniors
+Franco Moyano;Mediocentro;24;1.71;derecho;17/02/2021;CA San Lorenzo de Almagro;1500000;Argentinos Juniors
+Matías Galarza;Mediocentro;20;1.8;derecho;01/01/2022;Inferiores Argentinos Juniors;800000;Argentinos Juniors
+Alan Rodríguez;Mediocentro;22;1.7;derecho;12/08/2022;CA Boston River;700000;Argentinos Juniors
+Enzo Kalinski;Mediocentro;35;1.84;derecho;01/07/2021;Club Estudiantes de La Plata;150000;Argentinos Juniors
+Andrés Roa;Mediocentro ofensivo;29;1.75;derecho;11/07/2022;CA Independiente;2000000;Argentinos Juniors
+Gabriel Florentín;Mediocentro ofensivo;23;1.73;derecho;01/07/2019;Inferiores Argentinos Juniors;2000000;Argentinos Juniors
+Gabriel Carabajal;Mediocentro ofensivo;31;1.78;derecho;01/01/2022;Club Atlético Unión;800000;Argentinos Juniors
+Mateo Coronel;Mediocentro ofensivo;23;1.72;derecho;01/01/2020;Inferiores Argentinos Juniors;300000;Argentinos Juniors
+Yair González;Mediocentro ofensivo;20;1.73;derecho;;;50000;Argentinos Juniors
+Johan Campaña;Extremo izquierdo;19;1.7;derecho;11/02/2021;Deportivo Pasto U20;125000;Argentinos Juniors
+David Zalazar;Extremo izquierdo;20;1.79;izquierdo;01/01/2022;Inferiores Argentinos Juniors;100000;Argentinos Juniors
+Javier Cabrera;Extremo derecho;30;1.68;derecho;15/01/2021;Melbourne City FC;500000;Argentinos Juniors
+Thiago Nuss;Extremo derecho;21;1.72;derecho;01/01/2022;Inferiores Argentinos Juniors;75000;Argentinos Juniors
+José Herrera;Extremo derecho;19;1.72;izquierdo;01/07/2022;Inferiores Argentinos Juniors;25000;Argentinos Juniors
+Nicolás Reniero;Delantero centro;27;1.83;derecho;05/07/2021;Racing Club;2200000;Argentinos Juniors
+Gabriel Ávalos;Delantero centro;31;1.9;derecho;29/07/2020;CD Godoy Cruz Antonio Tomba;900000;Argentinos Juniors
+Gastón Verón;Delantero centro;21;1.84;derecho;01/01/2022;Inferiores Argentinos Juniors;325000;Argentinos Juniors
+Lautaro Ovando;Delantero centro;19;1.72;derecho;01/07/2022;Inferiores Argentinos Juniors;25000;Argentinos Juniors
+Axel Werner;Portero;26;1.91;derecho;31/01/2022;Elche CF;800000;Arsenal
+Alejandro Medina;Portero;35;1.82;derecho;17/02/2021;Quilmes Atlético Club;200000;Arsenal
+Alejandro Rivero;Portero;24;1.89;derecho;;;50000;Arsenal
+Joaquin Bigo;Portero;23;1.83;izquierdo;06/06/2022;AA Estudiantes Río Cuarto;25000;Arsenal
+Gonzalo Goñi;Defensa central;23;1.84;derecho;02/08/2021;CD Godoy Cruz Antonio Tomba;575000;Arsenal
+Gustavo Canto;Defensa central;28;1.86;izquierdo;13/07/2022;CS Emelec;400000;Arsenal
+Ignacio Gariglio;Defensa central;24;1.89;derecho;06/10/2020;Club Estudiantes de La Plata Inferiores;75000;Arsenal
+Franco Martínez;Defensa central;19;1.83;;;;25000;Arsenal
+Axel Carrión;Defensa central;18;1.92;;;;25000;Arsenal
+Joaquín Pombo;Defensa central;21;1.91;;01/01/2023;Arsenal Fútbol Inferiores;25000;Arsenal
+Iván Cabrera;Defensa central;19;1.79;;;;25000;Arsenal
+Damián Pérez;Lateral izquierdo;33;1.69;izquierdo;10/02/2022;CD Godoy Cruz Antonio Tomba;400000;Arsenal
+Lucas Suárez;Lateral izquierdo;27;1.84;izquierdo;08/02/2021;AA Estudiantes Río Cuarto;175000;Arsenal
+Leonardo Marchi;Lateral izquierdo;25;1.8;izquierdo;27/08/2020;Defensa y Justicia II;50000;Arsenal
+Cristian Chimino;Lateral derecho;34;1.78;derecho;17/01/2022;Atlético de Rafaela;325000;Arsenal
+Julián Navas;Lateral derecho;28;1.8;derecho;21/08/2020;Independiente Rivadavia;175000;Arsenal
+Mauro Pittón;Pivote;27;1.81;derecho;10/02/2022;CA Vélez Sarsfield;1100000;Arsenal
+Dardo Miloc;Pivote;31;;derecho;01/07/2021;Volos NPS;275000;Arsenal
+William Machado;Pivote;28;1.73;derecho;08/01/2022;Deportivo Villa Española;100000;Arsenal
+Alejo Antilef;Mediocentro;23;1.7;izquierdo;01/01/2018;Arsenal Fútbol Inferiores;525000;Arsenal
+Braian Rivero;Mediocentro;26;1.7;derecho;07/02/2022;CSD Defensa y Justicia;300000;Arsenal
+Agustín Maciel;Mediocentro;21;;;;;;Arsenal
+David Torres;Mediocentro;21;;;;;;Arsenal
+Braian Sánchez;Mediocentro ofensivo;29;1.7;derecho;03/02/2022;Club Deportivo Riestra;75000;Arsenal
+Emiliano Viveros;Mediocentro ofensivo;19;1.78;;;;25000;Arsenal
+Facundo Kruspzky;Extremo izquierdo;19;1.81;derecho;01/01/2022;Arsenal Fútbol Inferiores;350000;Arsenal
+Joaquín Ibáñez;Extremo izquierdo;25;1.78;izquierdo;08/01/2022;Club Almirante Brown;225000;Arsenal
+Shayr Mohamed;Extremo izquierdo;22;1.73;derecho;08/01/2022;Club Tijuana U20;25000;Arsenal
+Lucas Brochero;Extremo derecho;23;1.72;derecho;10/01/2022;CA Boca Juniors Inferiores;450000;Arsenal
+Edwin Torres;Extremo derecho;24;1.83;derecho;22/01/2022;Alianza Petrolera;250000;Arsenal
+Sebastián Lomónaco;Delantero centro;23;1.73;derecho;08/01/2022;CD Godoy Cruz Antonio Tomba;1500000;Arsenal
+Alexander Díaz;Delantero centro;22;1.72;izquierdo;25/01/2022;CA San Lorenzo de Almagro;1300000;Arsenal
+Francisco Apaolaza;Delantero centro;25;1.88;derecho;29/01/2022;Club Estudiantes de La Plata;1000000;Arsenal
+Cristian Colmán;Delantero centro;28;1.85;derecho;10/02/2022;CD Godoy Cruz Antonio Tomba;500000;Arsenal
+Lucas Cano;Delantero centro;27;1.85;derecho;11/07/2022;CA San Martín Tucumán;200000;Arsenal
+Juan Peinipil;Delantero centro;20;1.8;;01/01/2023;Arsenal Fútbol Inferiores;;Arsenal
+Agustín Rossi;Portero;20;1.93;izquierdo;01/02/2017;Club Estudiantes de La Plata;3500000;Boca
+Sergio Romero;Portero;22;1.92;derecho;08/08/2022;Venezia FC;700000;Boca
+Javier García;Portero;26;1.8;derecho;20/08/2020;Racing Club;100000;Boca
+Leandro Brey;Portero;34;1.91;derecho;01/01/2023;CA Boca Juniors Inferiores;75000;Boca
+Ramiro García;Portero;23;1.83;derecho;;;25000;Boca
+Bruno Valdez;Defensa central;27;1.81;derecho;16/01/2023;CF América;4000000;Boca
+Nicolás Figal;Defensa central;28;1.8;derecho;24/01/2022;Inter Miami CF;3500000;Boca
+Marcos Rojo;Defensa central;23;1.86;izquierdo;02/02/2021;Manchester United;3400000;Boca
+Carlos Izquierdoz;Defensa central;21;1.85;derecho;05/07/2018;Libre;3000000;Boca
+Lisandro López;Defensa central;20;1.87;derecho;01/01/2020;SL Benfica;2500000;Boca
+Carlos Zambrano;Defensa central;36;1.85;derecho;31/01/2020;FC Dinamo de Kiev;800000;Boca
+Facundo Roncaglia;Defensa central;30;1.79;derecho;18/07/2022;Aris Limassol;350000;Boca
+Nicolás Valentini;Defensa central;22;1.87;izquierdo;01/01/2023;CA Boca Juniors Inferiores;250000;Boca
+Gabriel Aranda;Defensa central;21;1.9;derecho;01/01/2023;CA Boca Juniors Inferiores;150000;Boca
+Alexis Alvariño;Defensa central;23;1.84;derecho;;;;Boca
+Nahuel Génez;Defensa central;23;1.84;izquierdo;;;;Boca
+Lautaro Di Lollo;Defensa central;29;1.87;derecho;;;;Boca
+Gastón Ávila;Lateral izquierdo;21;1.82;izquierdo;01/09/2020;CA Boca Juniors Inferiores;4500000;Boca
+Agustín Sández;Lateral izquierdo;22;1.84;izquierdo;01/07/2021;CA Boca Juniors Inferiores;1500000;Boca
+Frank Fabra;Lateral izquierdo;18;1.74;izquierdo;22/01/2016;Independiente Medellín;1500000;Boca
+Valentín Barco;Lateral izquierdo;24;1.72;izquierdo;01/07/2023;CA Boca Juniors Inferiores;1200000;Boca
+Marcelo Weigandt;Lateral derecho;19;1.75;derecho;01/07/2019;CA Boca Juniors Inferiores;2000000;Boca
+Luis Advíncula;Lateral derecho;20;1.78;derecho;31/07/2021;Rayo Vallecano;1200000;Boca
+Pedro Velurtas;Lateral derecho;30;1.76;derecho;;;25000;Boca
+Matías Olguín;Lateral derecho;20;1.8;derecho;;;;Boca
+Alan Varela;Pivote;18;1.77;derecho;01/01/2021;CA Boca Juniors Inferiores;7000000;Boca
+Ezequiel Fernández;Pivote;35;1.7;izquierdo;01/01/2023;CA Boca Juniors Inferiores;3000000;Boca
+Jorman Campuzano;Pivote;27;1.75;derecho;18/01/2019;Atlético Nacional;3000000;Boca
+Esteban Rolón;Pivote;19;1.75;derecho;01/07/2021;CA Huracán;450000;Boca
+Mauricio Benítez;Pivote;28;;derecho;;;;Boca
+Cristian Medina;Mediocentro;21;1.78;derecho;10/08/2020;CA Boca Juniors Inferiores;5500000;Boca
+Agustín Almendra;Mediocentro;31;1.82;derecho;01/07/2018;CA Boca Juniors Inferiores;4000000;Boca
+Martín Payero;Mediocentro;20;1.82;derecho;14/07/2022;Middlesbrough FC;4000000;Boca
+Juan Ramírez;Mediocentro;20;1.73;izquierdo;30/07/2021;CA San Lorenzo de Almagro;4000000;Boca
+Pol Fernández;Mediocentro;20;1.76;derecho;30/01/2022;CD Cruz Azul;3000000;Boca
+Diego González;Mediocentro;19;1.8;derecho;21/10/2020;Racing Club;350000;Boca
+Simón Rivero;Mediocentro;24;;izquierdo;;;;Boca
+Aarón Molinas;Mediocentro ofensivo;28;1.75;derecho;01/07/2021;CA Boca Juniors Inferiores;4000000;Boca
+Óscar Romero;Mediocentro ofensivo;22;1.76;izquierdo;18/02/2022;Libre;3700000;Boca
+Brandon Cortés;Mediocentro ofensivo;31;1.78;derecho;;;150000;Boca
+Vicente Taborda;Mediocentro ofensivo;25;1.75;derecho;;;25000;Boca
+Cristian Pavón;Extremo izquierdo;22;1.74;derecho;09/07/2014;Libre;5500000;Boca
+Sebastián Villa;Extremo izquierdo;29;1.79;derecho;01/07/2018;Libre.82 mill. €;5500000;Boca
+Exequiel Zeballos;Extremo izquierdo;26;1.7;derecho;01/07/2020;CA Boca Juniors Inferiores;5500000;Boca
+Eduardo Salvio;Extremo derecho;23;1.73;derecho;18/07/2019;SL Benfica;3800000;Boca
+Norberto Briasco;Extremo derecho;23;1.86;ambidiestro;01/07/2021;CA Huracán;1400000;Boca
+Maximiliano Zalazar;Extremo derecho;22;1.75;derecho;;;;Boca
+Luca Langoni;Extremo derecho;28;1.73;derecho;01/07/2022;CA Boca Juniors Inferiores;;Boca
+Luis Vázquez;Delantero centro;21;1.9;derecho;01/07/2021;CA Boca Juniors Inferiores;4500000;Boca
+Darío Benedetto;Delantero centro;27;1.75;derecho;21/01/2022;Olympique de Marsella;3000000;Boca
+Miguel Merentiel;Delantero centro;35;1.76;derecho;02/02/2023;SE Palmeiras;2500000;Boca
+Nicolás Orsini;Delantero centro;22;1.87;derecho;01/07/2021;Club Atlético Lanús;1500000;Boca
+Gonzalo Morales;Delantero centro;28;1.88;izquierdo;;;;Boca
+Luis Schlishting;Defensa;19;;;;;25000;Colon
+Agustín Arcando;Defensa;19;;;;;25000;Colon
+Aaron Martínez;Centrocampista;25;;;;;;Colon
+Luciano Cura;Defensa;26;1.8;;;;;Colon
+Lautaro Laborie;Defensa;18;;;;;;Colon
+Leandro Ojeda;Centrocampista;19;;;;;;Colon
+Matías Ibáñez;Portero;22;1.9;derecho;10/02/2022;Club Atlético Patronato;275000;Colon
+Ignacio Chicco;Portero;21;1.84;izquierdo;01/07/2018;Libre;175000;Colon
+Facundo Masuero;Portero;28;1.9;derecho;;;25000;Colon
+Facundo Garcés;Defensa central;33;1.89;derecho;01/09/2020;Libre;4500000;Colon
+Joaquín Novillo;Defensa central;19;1.9;izquierdo;01/01/2022;Club Atlético Belgrano;625000;Colon
+Paolo Goltz;Defensa central;21;1.84;derecho;10/02/2021;Club de Gimnasia y Esgrima La Plata;400000;Colon
+Lucas Acevedo;Defensa central;21;1.94;derecho;01/07/2019;CA San Martín Tucumán;275000;Colon
+Gian Nardelli;Defensa central;20;1.82;derecho;01/07/2022;Club Atlético Colón II;50000;Colon
+Elías Fugas;Defensa central;18;1.9;derecho;;;;Colon
+Rafael Delgado;Lateral izquierdo;28;1.75;izquierdo;21/01/2020;CSD Defensa y Justicia;1700000;Colon
+Juan Sánchez Miño;Lateral izquierdo;22;1.77;izquierdo;14/01/2022;Club Estudiantes de La Plata;1000000;Colon
+Andrew Teuten;Lateral izquierdo;20;1.73;izquierdo;02/02/2022;Montevideo City Torque;875000;Colon
+Nahuel Gallardo;Lateral izquierdo;20;1.79;izquierdo;15/07/2021;Libre;300000;Colon
+Eric Meza;Lateral derecho;25;1.75;derecho;01/02/2021;Libre;2500000;Colon
+Augusto Schott;Lateral derecho;25;1.75;derecho;03/06/2022;Club Atlético Talleres;800000;Colon
+Jonathan Sandoval;Lateral derecho;19;1.79;derecho;24/01/2022;Argentinos Juniors;150000;Colon
+Federico Lértora;Pivote;21;1.85;derecho;23/07/2019;Club Atlético Belgrano;1700000;Colon
+Cristian Vega;Pivote;22;1.7;derecho;26/01/2022;CA Central Córdoba SdE;800000;Colon
+Julián Chicco;Pivote;30;1.87;derecho;01/07/2022;CA Sarmiento Junín;575000;Colon
+Tomás Moschión;Pivote;25;1.71;derecho;;;100000;Colon
+Stefano Moreyra;Pivote;37;1.79;derecho;;;25000;Colon
+Baldomero Perlaza;Mediocentro;26;1.87;derecho;11/07/2022;Atlético Nacional;1100000;Colon
+Leonel Picco;Mediocentro;34;1.88;derecho;08/07/2022;Arsenal Fútbol Club;325000;Colon
+Danilo Gómez;Mediocentro;20;1.8;;;;;Colon
+Facundo Farías;Mediocentro ofensivo;18;1.75;derecho;01/09/2020;Libre;12000000;Colon
+Brian Farioli;Mediocentro ofensivo;21;1.8;izquierdo;12/06/2019;Libre;400000;Colon
+Mauro Formica;Mediocentro ofensivo;18;1.79;derecho;03/07/2021;CA Newell's Old Boys;100000;Colon
+Mario Otazú;Extremo izquierdo;19;1.83;izquierdo;07/07/2022;Guaireña FC;400000;Colon
+Santiago Pierotti;Extremo derecho;26;1.89;derecho;01/07/2019;Libre;1600000;Colon
+Christian Bernardi;Extremo derecho;35;1.77;derecho;04/07/2016;Instituto AC Córdoba;1400000;Colon
+Juan Pablo Álvarez;Extremo derecho;35;1.75;derecho;06/06/2022;CA Banfield;1400000;Colon
+Facundo Taborda;Extremo derecho;19;1.74;derecho;;;;Colon
+Luis Miguel Rodríguez;Mediapunta;20;1.67;derecho;10/01/2022;Club de Gimnasia y Esgrima La Plata;1000000;Colon
+Ramón Ábila;Delantero centro;29;1.77;derecho;10/02/2022;CA Boca Juniors;1600000;Colon
+Nicolás Leguizamón;Delantero centro;32;1.81;derecho;01/07/2016;Libre;500000;Colon
+Tomás Sandoval;Delantero centro;33;1.85;derecho;01/07/2016;Libre;275000;Colon
+Juan Cruz Zurbriggen;Delantero centro;32;1.84;derecho;;;50000;Colon
+Laureano Troncoso;Delantero centro;32;1.77;;;;;Colon
+Franco Déboli;Delantero centro;35;1.87;derecho;;;;Colon
+Agustín Blas Palavecino;Centrocampista;32;1.85;derecho;;;;Estudiantes de La Plata
+Matteo Trombini;Centrocampista;32;1.7;derecho;;;;Estudiantes de La Plata
+Mariano Andújar;Portero;24;1.94;derecho;25/07/2016;SSC Nápoles;1000000;Estudiantes de La Plata
+Jerónimo Pourtau;Portero;23;1.93;derecho;01/01/2019;Club Estudiantes de La Plata Inferiores;275000;Estudiantes de La Plata
+Juan Pablo Zozaya;Portero;22;1.87;derecho;;;25000;Estudiantes de La Plata
+Fabricio Iacovich;Portero;35;1.99;izquierdo;;;;Estudiantes de La Plata
+Agustín Rogel;Defensa central;31;1.91;derecho;17/01/2022;Toulouse FC;4500000;Estudiantes de La Plata
+Jorge Morel;Defensa central;28;1.85;derecho;02/02/2022;Club Guaraní;3800000;Estudiantes de La Plata
+Fabián Noguera;Defensa central;24;1.92;derecho;02/02/2021;Santos FC;2000000;Estudiantes de La Plata
+Nehuén Paz;Defensa central;22;1.92;izquierdo;28/07/2022;CD Universidad Católica;450000;Estudiantes de La Plata
+Luciano Lollo;Defensa central;20;1.83;derecho;27/05/2022;CA Banfield;350000;Estudiantes de La Plata
+Ezequiel Muñoz;Defensa central;31;1.86;;14/01/2022;CA Independiente;175000;Estudiantes de La Plata
+Bruno Adriel Valdez;Defensa central;30;1.79;derecho;;;50000;Estudiantes de La Plata
+Santiago Flores;Defensa central;23;1.85;derecho;;;;Estudiantes de La Plata
+Mateo Burdisso;Defensa central;20;1.88;derecho;;;;Estudiantes de La Plata
+Santiago Núñez;Defensa central;19;1.86;derecho;01/08/2022;Club Estudiantes de La Plata Inferiores;;Estudiantes de La Plata
+Emmanuel Más;Lateral izquierdo;24;1.8;izquierdo;06/01/2022;Orlando City SC;700000;Estudiantes de La Plata
+Nicolás Fernández;Lateral izquierdo;34;1.78;izquierdo;;;75000;Estudiantes de La Plata
+Leonardo Godoy;Lateral derecho;25;1.73;derecho;01/01/2022;Club Atlético Talleres;3500000;Estudiantes de La Plata
+Emanuel Beltrán;Lateral derecho;21;1.81;derecho;21/01/2022;Cerro Largo FC;400000;Estudiantes de La Plata
+Eros Mancuso;Lateral derecho;32;1.71;derecho;01/07/2022;CA Boca Juniors Inferiores;300000;Estudiantes de La Plata
+Juan Franco Cacace;Lateral derecho;26;1.85;derecho;;;;Estudiantes de La Plata
+Jorge Rodríguez;Pivote;21;1.79;derecho;03/02/2021;CA Banfield;3000000;Estudiantes de La Plata
+Gonzalo Piñeiro;Pivote;37;1.76;derecho;01/07/2022;Club Estudiantes de La Plata Inferiores;;Estudiantes de La Plata
+Fernando Zuqui;Mediocentro;32;1.73;derecho;24/08/2017;CA Boca Juniors;2000000;Estudiantes de La Plata
+Nelson Deossa;Mediocentro;21;1.78;izquierdo;26/01/2022;CD Atlético Huila;525000;Estudiantes de La Plata
+José Sosa;Mediocentro;27;1.79;derecho;09/08/2022;Fenerbahce;300000;Estudiantes de La Plata
+Bautista Kociubinski;Mediocentro;23;1.8;derecho;01/01/2022;Club Estudiantes de La Plata Inferiores;100000;Estudiantes de La Plata
+Leonardo Heredia;Mediocentro ofensivo;22;1.87;derecho;27/06/2022;Club Atlético Tucumán;1000000;Estudiantes de La Plata
+Franco Zapiola;Mediocentro ofensivo;21;1.76;derecho;01/01/2022;Club Estudiantes de La Plata Inferiores;725000;Estudiantes de La Plata
+Brian Orosco;Mediocentro ofensivo;21;1.75;derecho;10/02/2022;Club Deportivo Morón;325000;Estudiantes de La Plata
+Nicolás Palavecino;Mediocentro ofensivo;24;1.86;derecho;;;300000;Estudiantes de La Plata
+Vinicius Lansade;Mediocentro ofensivo;23;1.77;izquierdo;;;;Estudiantes de La Plata
+Matías Pellegrini;Extremo izquierdo;28;1.76;derecho;30/07/2021;Inter Miami CF;4500000;Estudiantes de La Plata
+Alan Marinelli;Extremo izquierdo;25;1.74;izquierdo;10/02/2022;CA Rosario Central;1100000;Estudiantes de La Plata
+Pablo Piatti;Extremo izquierdo;24;1.63;izquierdo;01/07/2022;Elche CF;1000000;Estudiantes de La Plata
+Hernán Toledo;Extremo izquierdo;25;1.8;derecho;10/01/2022;Club Deportivo Maldonado;350000;Estudiantes de La Plata
+Carlo Lattanzio;Extremo izquierdo;29;1.74;izquierdo;01/01/2018;Club Estudiantes de La Plata Inferiores;250000;Estudiantes de La Plata
+Ricardo Ramírez;Extremo izquierdo;27;1.69;izquierdo;01/07/2021;Club Atlético San Telmo;175000;Estudiantes de La Plata
+Manuel Castro;Extremo derecho;29;1.71;derecho;21/01/2019;Montevideo Wanderers;2300000;Estudiantes de La Plata
+Benjamín Rollheiser;Extremo derecho;26;1.71;izquierdo;27/06/2022;CA River Plate;500000;Estudiantes de La Plata
+Gustavo del Prete;Delantero centro;24;1.76;izquierdo;05/07/2021;Montevideo City Torque;3800000;Estudiantes de La Plata
+Leandro Díaz;Delantero centro;21;1.8;derecho;01/01/2022;Club Atlético Tucumán;1500000;Estudiantes de La Plata
+Mauro Méndez;Delantero centro;19;1.79;derecho;28/07/2022;Montevideo Wanderers;700000;Estudiantes de La Plata
+Mauro Boselli;Delantero centro;23;1.85;derecho;01/01/2022;Club Cerro Porteño;250000;Estudiantes de La Plata
+Aaron Spetale;Delantero centro;20;1.87;derecho;;;50000;Estudiantes de La Plata
+Mateo Pellegrino;Delantero centro;18;1.93;izquierdo;27/06/2022;CA Vélez Sarsfield Inferiores;50000;Estudiantes de La Plata
+Rodrigo Rey;Portero;24;1.9;derecho;08/02/2021;PAOK de Salónica FC;750000;Gimnasia y Esgrima La Plata
+Tomás Durso;Portero;24;1.85;derecho;01/01/2019;Club de Gimnasia y Esgrima La Plata Inferiores;50000;Gimnasia y Esgrima La Plata
+Nahuel Manganelli;Portero;29;1.84;;;;;Gimnasia y Esgrima La Plata
+Germán Guiffrey;Defensa central;29;1.79;izquierdo;10/06/2019;Club de Gimnasia y Esgrima La Plata Inferiores;575000;Gimnasia y Esgrima La Plata
+Leonardo Morales;Defensa central;35;1.8;derecho;01/07/2019;CYB Ramón Santamarina;475000;Gimnasia y Esgrima La Plata
+Guillermo Fratta;Defensa central;31;1.88;derecho;01/07/2021;CA Rentistas;350000;Gimnasia y Esgrima La Plata
+Oscar Piris;Defensa central;20;1.81;derecho;07/01/2022;Delfín SC;275000;Gimnasia y Esgrima La Plata
+Maximiliano Coronel;Defensa central;21;1.8;derecho;10/07/2013;Libre;250000;Gimnasia y Esgrima La Plata
+Bruno Palazzo;Defensa central;20;1.78;derecho;;;25000;Gimnasia y Esgrima La Plata
+Matías Melluso;Lateral izquierdo;22;1.7;izquierdo;01/01/2018;Club de Gimnasia y Esgrima La Plata Inferiores;1800000;Gimnasia y Esgrima La Plata
+Nicolás Colazo;Lateral izquierdo;33;1.75;izquierdo;01/07/2021;Libre;225000;Gimnasia y Esgrima La Plata
+Francisco Gerometta;Lateral derecho;27;1.75;derecho;14/07/2021;Club Atlético Unión;525000;Gimnasia y Esgrima La Plata
+Guillermo Enrique;Lateral derecho;27;1.74;derecho;01/07/2022;Club de Gimnasia y Esgrima La Plata Inferiores;75000;Gimnasia y Esgrima La Plata
+Matías Bazzi;Lateral derecho;24;1.78;derecho;;;;Gimnasia y Esgrima La Plata
+Gonzalo González;Lateral derecho;23;1.81;derecho;;;;Gimnasia y Esgrima La Plata
+Emanuel Cecchini;Pivote;21;1.79;derecho;20/02/2021;Libre;450000;Gimnasia y Esgrima La Plata
+Nery Leyes;Pivote;26;1.81;derecho;20/07/2021;Club Atlético Tucumán;100000;Gimnasia y Esgrima La Plata
+Ignacio Miramón;Pivote;21;1.73;derecho;01/01/2023;Club de Gimnasia y Esgrima La Plata Inferiores;50000;Gimnasia y Esgrima La Plata
+Manuel Insaurralde;Mediocentro;30;1.76;derecho;07/07/2021;CA San Lorenzo de Almagro;550000;Gimnasia y Esgrima La Plata
+Matías Miranda;Mediocentro;22;1.74;izquierdo;01/07/2019;Club de Gimnasia y Esgrima La Plata Inferiores;400000;Gimnasia y Esgrima La Plata
+Agustín Cardozo;Mediocentro;37;1.81;derecho;14/01/2022;Club Atlético Tigre;350000;Gimnasia y Esgrima La Plata
+Tomás Muro;Mediocentro;21;1.8;derecho;01/07/2022;Club de Gimnasia y Esgrima La Plata Inferiores;50000;Gimnasia y Esgrima La Plata
+Alan Lescano;Mediocentro;26;1.82;izquierdo;01/07/2022;Club de Gimnasia y Esgrima La Plata Inferiores;25000;Gimnasia y Esgrima La Plata
+Alexis Steimbach;Interior derecho;21;;derecho;01/07/2022;Club de Gimnasia y Esgrima La Plata Inferiores;;Gimnasia y Esgrima La Plata
+Brahian Alemán;Mediocentro ofensivo;24;1.77;izquierdo;03/08/2019;AlEttifaq FC;1000000;Gimnasia y Esgrima La Plata
+Lautaro Chávez;Mediocentro ofensivo;19;1.75;derecho;10/06/2019;Club de Gimnasia y Esgrima La Plata Inferiores;100000;Gimnasia y Esgrima La Plata
+Benjamín Domínguez;Extremo izquierdo;22;1.72;derecho;;;150000;Gimnasia y Esgrima La Plata
+Estanislao Jara;Extremo izquierdo;23;1.77;derecho;;;50000;Gimnasia y Esgrima La Plata
+Ramón Sosa;Extremo derecho;33;1.78;derecho;02/02/2022;Club Olimpia Asunción;2500000;Gimnasia y Esgrima La Plata
+Franco Torres;Extremo derecho;26;1.74;derecho;01/01/2022;Club de Gimnasia y Esgrima La Plata Inferiores;25000;Gimnasia y Esgrima La Plata
+Cristian Tarragona;Delantero centro;24;1.76;derecho;17/01/2022;CA Vélez Sarsfield;1400000;Gimnasia y Esgrima La Plata
+Eric Ramírez;Delantero centro;23;1.7;derecho;01/01/2020;Club de Gimnasia y Esgrima La Plata Inferiores;1000000;Gimnasia y Esgrima La Plata
+Nicolás Contin;Delantero centro;26;1.83;derecho;01/07/2018;Club de Gimnasia y Esgrima La Plata Inferiores;700000;Gimnasia y Esgrima La Plata
+Franco Soldano;Delantero centro;28;1.8;derecho;14/02/2022;Olympiakos El Pireo;600000;Gimnasia y Esgrima La Plata
+Alexis Domínguez;Delantero centro;22;1.85;derecho;20/07/2021;CSD Tristán Suárez;125000;Gimnasia y Esgrima La Plata
+Mauro Dávila;Delantero centro;26;;;;;25000;Gimnasia y Esgrima La Plata
+Juan Espínola;Portero;17;1.85;derecho;26/01/2021;Club Nacional Asunción;650000;Godoy Cruz Antonio Tomba
+Roberto Ramírez;Portero;27;1.88;derecho;01/07/2016;Club Deportivo Godoy Cruz Inferiores;300000;Godoy Cruz Antonio Tomba
+Diego Rodríguez;Portero;22;1.84;izquierdo;02/06/2022;Panetolikos GFS;200000;Godoy Cruz Antonio Tomba
+Matías Soria;Portero;36;1.82;derecho;;;25000;Godoy Cruz Antonio Tomba
+Guillermo Ortiz;Defensa central;25;1.83;derecho;01/07/2021;Club Atlético Tucumán;1200000;Godoy Cruz Antonio Tomba
+Gianluca Ferrari;Defensa central;24;1.84;derecho;10/02/2021;CA San Lorenzo de Almagro;1200000;Godoy Cruz Antonio Tomba
+José Canale;Defensa central;26;1.87;izquierdo;01/07/2022;Club Libertad Asunción;300000;Godoy Cruz Antonio Tomba
+Pier Barrios;Defensa central;36;1.8;derecho;03/06/2022;Quilmes Atlético Club;300000;Godoy Cruz Antonio Tomba
+Jhostín Medranda;Defensa central;21;1.86;izquierdo;22/01/2022;Deportes Quindío;50000;Godoy Cruz Antonio Tomba
+Nahuel Brunet;Defensa central;24;1.84;izquierdo;;;;Godoy Cruz Antonio Tomba
+Franco Negri;Lateral izquierdo;18;1.76;izquierdo;10/02/2022;CA Newell's Old Boys;500000;Godoy Cruz Antonio Tomba
+Elías Pereyra;Lateral izquierdo;31;1.72;izquierdo;06/07/2022;Panetolikos GFS;300000;Godoy Cruz Antonio Tomba
+Kalazán Suárez;Lateral izquierdo;23;1.77;izquierdo;07/01/2022;CD Real Cartagena;50000;Godoy Cruz Antonio Tomba
+Andrés Meli;Lateral izquierdo;21;1.75;izquierdo;;;;Godoy Cruz Antonio Tomba
+Elías López;Lateral derecho;24;1.78;derecho;16/02/2021;Libre;1000000;Godoy Cruz Antonio Tomba
+Néstor Breitenbruch;Lateral derecho;31;1.78;derecho;01/07/2021;CSD Defensa y Justicia;700000;Godoy Cruz Antonio Tomba
+Juan Pintado;Lateral derecho;26;1.73;derecho;07/01/2022;Juventud de Las Piedras;425000;Godoy Cruz Antonio Tomba
+Manuel Llano;Lateral derecho;33;1.84;derecho;01/07/2021;CA Newell's Old Boys;200000;Godoy Cruz Antonio Tomba
+Nelson Acevedo;Pivote;33;1.71;derecho;06/07/2021;Club Atlético Unión;300000;Godoy Cruz Antonio Tomba
+Juan Andrada;Pivote;21;1.83;derecho;01/07/2016;Club Deportivo Godoy Cruz Inferiores;200000;Godoy Cruz Antonio Tomba
+Bruno Leyes;Pivote;24;1.73;izquierdo;01/01/2022;Club Deportivo Godoy Cruz Inferiores;75000;Godoy Cruz Antonio Tomba
+Luciano Pizarro;Pivote;31;1.84;derecho;12/01/2020;Club Deportivo Godoy Cruz Inferiores;50000;Godoy Cruz Antonio Tomba
+Gonzalo Abrego;Mediocentro;22;1.84;derecho;01/01/2021;Club Deportivo Godoy Cruz Inferiores;1000000;Godoy Cruz Antonio Tomba
+Gabriel Vega;Mediocentro;22;1.86;derecho;25/06/2022;CA Boca Juniors Inferiores;100000;Godoy Cruz Antonio Tomba
+Emanuel Quinteros;Mediocentro;21;1.82;derecho;;;;Godoy Cruz Antonio Tomba
+Guillermo Pereira;Interior derecho;19;1.78;derecho;27/07/2021;Club Deportivo Riestra;200000;Godoy Cruz Antonio Tomba
+Tomás Castro Ponce;Interior derecho;25;1.86;derecho;07/01/2022;Libre;75000;Godoy Cruz Antonio Tomba
+Ezequiel Bullaude;Mediocentro ofensivo;32;1.84;derecho;10/06/2019;Club Deportivo Godoy Cruz Inferiores;4500000;Godoy Cruz Antonio Tomba
+Valentín Burgoa;Mediocentro ofensivo;19;1.75;izquierdo;01/07/2019;Club Deportivo Godoy Cruz Inferiores;800000;Godoy Cruz Antonio Tomba
+Martín Ojeda;Extremo izquierdo;23;1.79;izquierdo;01/01/2022;Racing Club;6000000;Godoy Cruz Antonio Tomba
+Matías Ramírez;Extremo izquierdo;22;1.75;derecho;10/02/2022;Club Ferro Carril Oeste;225000;Godoy Cruz Antonio Tomba
+Gastón Pedernera;Extremo izquierdo;25;1.73;izquierdo;;;25000;Godoy Cruz Antonio Tomba
+Nahuel Cainelli;Extremo derecho;20;1.78;derecho;10/02/2022;AA Estudiantes Río Cuarto;300000;Godoy Cruz Antonio Tomba
+Leandro Soria;Extremo derecho;20;1.75;derecho;;;;Godoy Cruz Antonio Tomba
+Facundo Altamira;Extremo derecho;19;1.83;;;;;Godoy Cruz Antonio Tomba
+Tomás Badaloni;Delantero centro;32;1.86;izquierdo;01/07/2019;Club Deportivo Godoy Cruz Inferiores;1800000;Godoy Cruz Antonio Tomba
+Salomón Rodríguez;Delantero centro;21;1.87;izquierdo;01/02/2022;CA Rentistas;800000;Godoy Cruz Antonio Tomba
+Santiago Paiva;Delantero centro;22;1.81;derecho;14/07/2022;Danubio FC;300000;Godoy Cruz Antonio Tomba
+Enzo Larrosa;Delantero centro;18;1.85;izquierdo;14/07/2022;CA Boston River;300000;Godoy Cruz Antonio Tomba
+Cristian Chávez;Delantero centro;22;1.75;derecho;31/05/2022;CA Independiente;125000;Godoy Cruz Antonio Tomba
+Tadeo Allende;Delantero centro;22;1.85;derecho;01/01/2023;Instituto AC Córdoba;100000;Godoy Cruz Antonio Tomba
+Nahuel Ulariaga;Delantero centro;23;1.73;derecho;;;25000;Godoy Cruz Antonio Tomba
+Alessio Iadelisi;Delantero centro;31;;;;;;Godoy Cruz Antonio Tomba
+Marcos Díaz;Portero;27;1.87;derecho;14/07/2021;Club Atlético Talleres;600000;Huracan
+Sebastián Meza;Portero;28;1.8;derecho;01/07/2021;CA Huracán II;600000;Huracan
+Nicolás Campisi;Portero;23;1.88;derecho;09/07/2022;Club Sol de América;400000;Huracan
+Rafael Ferrario;Portero;20;1.86;derecho;;;25000;Huracan
+Lucas Merolla;Defensa central;21;1.95;izquierdo;01/07/2018;CA Huracán II;2300000;Huracan
+Jonathan Sebastián Galván;Defensa central;21;1.8;derecho;20/07/2021;Argentinos Juniors;650000;Huracan
+Pablo Adorno;Defensa central;26;1.84;izquierdo;25/01/2022;Club Cerro Porteño;300000;Huracan
+Fernando Tobio;Defensa central;24;1.86;derecho;17/01/2022;Club Estudiantes de La Plata;250000;Huracan
+Ezequiel Navarro;Defensa central;22;1.77;derecho;;;50000;Huracan
+Santiago Moya;Defensa central;33;1.87;derecho;01/07/2022;CA Huracán II;25000;Huracan
+Leandro Figueredo;Defensa central;27;1.94;derecho;;;;Huracan
+Patricio Pizarro;Defensa central;20;1.83;derecho;01/07/2022;CA Huracán II;;Huracan
+César Ibáñez;Lateral izquierdo;24;1.7;izquierdo;01/07/2021;CA Huracán II;800000;Huracan
+Guillermo Benítez;Lateral izquierdo;22;1.7;izquierdo;01/07/2022;Club Guaraní;600000;Huracan
+Walter Pérez;Lateral izquierdo;20;1.75;izquierdo;05/10/2020;Sperre;425000;Huracan
+Lucas Carrizo;Lateral izquierdo;22;1.8;izquierdo;04/01/2022;CA Gimnasia y Esgrima Mendoza;225000;Huracan
+Guillermo Soto;Lateral derecho;28;1.75;derecho;01/01/2023;CD Palestino;400000;Huracan
+Ismael Quílez;Lateral derecho;21;1.79;derecho;30/07/2021;CA Central Córdoba SdE;250000;Huracan
+Iván Valenzuela;Lateral derecho;21;1.77;derecho;;;25000;Huracan
+Santiago Hezze;Pivote;21;1.82;derecho;01/01/2020;CA Huracán II;900000;Huracan
+Federico Fattori;Pivote;23;1.78;derecho;01/01/2023;Club Ferro Carril Oeste;450000;Huracan
+Fabián Henríquez;Pivote;23;1.85;izquierdo;01/07/2021;CD Godoy Cruz Antonio Tomba;250000;Huracan
+Fernando Godoy;Pivote;21;1.72;derecho;11/07/2022;Club Sol de América;125000;Huracan
+Diego Mercado;Pivote;27;1.69;derecho;16/10/2020;CA Independiente;50000;Huracan
+Agostino Spina;Pivote;17;1.75;derecho;01/01/2023;CA Huracán II;25000;Huracan
+Lucas Vera;Mediocentro;20;1.64;derecho;01/07/2021;Club Atlético Lanús;2000000;Huracan
+Santiago Luján;Interior derecho;22;1.73;derecho;;;25000;Huracan
+Franco Cristaldo;Mediocentro ofensivo;22;1.75;derecho;01/01/2022;CA Boca Juniors;2400000;Huracan
+Patricio Toranzo;Mediocentro ofensivo;23;1.81;derecho;29/10/2020;Club Ciclón de Tarija;;Huracan
+Valentín Sánchez;Mediocentro ofensivo;21;1.72;derecho;;;;Huracan
+Matias Gómez;Mediocentro ofensivo;35;1.7;derecho;;;;Huracan
+Rodrigo Cabral;Extremo izquierdo;23;1.7;izquierdo;11/08/2020;CA Huracán II;650000;Huracan
+Benjamín Garré;Extremo izquierdo;20;1.72;izquierdo;10/06/2022;Racing Club;325000;Huracan
+Jonás Acevedo;Extremo izquierdo;17;1.72;izquierdo;01/07/2021;Quilmes Atlético Club;225000;Huracan
+Agustín Curruhinca;Extremo izquierdo;19;1.67;derecho;01/07/2021;CA Huracán II;100000;Huracan
+Mateo Bajamich;Extremo derecho;24;1.78;derecho;28/01/2022;Houston Dynamo FC;800000;Huracan
+Gabriel Gudiño;Extremo derecho;21;1.72;derecho;11/06/2022;Club Atlético Patronato;450000;Huracan
+Juan Carlos Gauto;Extremo derecho;23;1.7;derecho;01/01/2022;Club Atlético Huracán Inferiores;150000;Huracan
+Matías Cóccaro;Delantero centro;26;1.78;derecho;01/07/2022;Montevideo City Torque;2400000;Huracan
+Nicolás Cordero;Delantero centro;22;1.85;derecho;11/06/2019;CA Huracán II;600000;Huracan
+Maicol Cabrera;Delantero centro;38;1.85;derecho;22/07/2022;Danubio FC;375000;Huracan
+Bruno Vides;Delantero centro;17;1.78;derecho;01/02/2022;Orense SC;175000;Huracan
+Enzo Luna;Delantero centro;28;1.8;derecho;01/07/2022;CA Huracán II;;Huracan
+Julián Romero;Delantero;23;1.73;;;;75000;Independiente
+Sebastián Sosa;Portero;26;1.81;derecho;18/01/2022;Mazatlán FC;2000000;Independiente
+Milton Álvarez;Portero;23;1.85;izquierdo;18/07/2018;Club Deportivo Morón;450000;Independiente
+Renzo Bacchia;Portero;26;1.85;derecho;11/08/2020;CA Independiente II;300000;Independiente
+Diego Segovia;Portero;20;1.91;derecho;;;25000;Independiente
+Sergio Barreto;Defensa central;21;1.83;derecho;02/01/2020;CA Independiente II;3000000;Independiente
+Joaquín Laso;Defensa central;21;1.85;derecho;01/07/2021;CA Rosario Central;750000;Independiente
+Edgar Elizalde;Defensa central;25;1.82;izquierdo;07/07/2022;Delfino Pescara 1936;500000;Independiente
+Juan Manuel Insaurralde;Defensa central;25;1.87;izquierdo;18/02/2021;CSD Colo Colo;375000;Independiente
+Patricio Ostachuk;Defensa central;22;1.83;derecho;01/01/2022;CA Independiente II;125000;Independiente
+Mauro Zurita;Defensa central;25;1.84;derecho;;;;Independiente
+Ayrton Costa;Lateral izquierdo;21;1.79;izquierdo;01/09/2020;CA Independiente II;400000;Independiente
+Lucas Rodríguez;Lateral izquierdo;25;1.68;izquierdo;01/10/2020;Tiburones Rojos de Veracruz;350000;Independiente
+Thomas Ortega;Lateral izquierdo;30;1.85;izquierdo;01/01/2020;CA Independiente II;225000;Independiente
+Enzo Franco;Lateral izquierdo;30;1.71;izquierdo;;;;Independiente
+Alex Vigo;Lateral derecho;25;1.75;derecho;07/02/2022;Libre;2200000;Independiente
+Gonzalo Asís;Lateral derecho;32;1.74;derecho;01/01/2018;CA Independiente II;200000;Independiente
+Lucas Romero;Pivote;22;1.72;derecho;31/07/2019;Cruzeiro Esporte Clube;3200000;Independiente
+Iván Marcone;Pivote;25;1.82;derecho;18/06/2022;Elche CF;2000000;Independiente
+Gerónimo Poblete;Pivote;31;1.73;derecho;17/03/2022;Metalist Kharkiv;475000;Independiente
+Carlos Benavidez;Pivote;25;1.85;derecho;23/07/2018;Defensor Sporting Club;450000;Independiente
+Juan Pacchini;Pivote;23;1.66;derecho;01/01/2021;CA Independiente II;75000;Independiente
+Domingo Blanco;Mediocentro;21;1.67;derecho;14/03/2017;Club Olimpo II;3500000;Independiente
+Alan Soñora;Mediocentro;29;1.71;izquierdo;01/07/2019;CA Independiente II;3000000;Independiente
+Lucas González;Mediocentro;21;1.69;derecho;01/08/2020;CA Independiente II;1700000;Independiente
+Justo D'Angelo;Mediocentro;26;;;;;;Independiente
+Sergio Fabian Ortiz;Mediocentro;23;1.74;derecho;01/01/2023;CA Independiente II;;Independiente
+Juan Cazares;Mediocentro ofensivo;18;1.71;derecho;04/07/2022;Metalist Kharkiv;1800000;Independiente
+Tomás Pozzo;Mediocentro ofensivo;23;1.68;izquierdo;01/07/2021;CA Independiente II;850000;Independiente
+Gabriel Hachen;Mediocentro ofensivo;18;1.67;izquierdo;02/07/2022;CSD Defensa y Justicia;525000;Independiente
+Ignacio Medina;Mediocentro ofensivo;26;1.76;derecho;;;25000;Independiente
+Ramiro Lobo;Mediocentro ofensivo;21;;;;;;Independiente
+Gastón Togni;Extremo izquierdo;24;1.81;izquierdo;11/08/2020;CA Independiente II;1300000;Independiente
+Rodrigo Márquez;Extremo izquierdo;22;1.77;izquierdo;01/07/2021;CA Independiente II;200000;Independiente
+Damián Batallini;Extremo derecho;26;1.76;derecho;28/01/2022;Argentinos Juniors;2700000;Independiente
+Rodrigo Atencio;Extremo derecho;18;1.75;izquierdo;;;;Independiente
+Javier Vallejo;Extremo derecho;18;1.7;derecho;01/01/2023;CA Independiente II;;Independiente
+Juan Román Zarza;Mediapunta;23;1.7;derecho;;;;Independiente
+Facundo Ferreyra;Delantero centro;28;1.85;derecho;07/07/2022;Club Tijuana;1700000;Independiente
+Leandro Fernández;Delantero centro;23;1.78;derecho;31/01/2022;Sport Club Internacional;600000;Independiente
+Leandro Benegas;Delantero centro;24;1.8;izquierdo;15/02/2022;CDP Curicó Unido;425000;Independiente
+David Sayago;Delantero centro;25;1.83;derecho;;;25000;Independiente
+Santiago Ayala;Delantero centro;24;1.73;derecho;;;;Independiente
+Santiago Hidalgo;Delantero centro;27;1.76;izquierdo;;;;Independiente
+Guillermo de Amores;Portero;21;1.88;derecho;19/07/2022;Deportivo Cali;800000;Lanus
+Fernando Monetti;Portero;27;1.84;derecho;22/01/2022;Libre;650000;Lanus
+Luciano Peraggini;Portero;20;1.88;derecho;;;25000;Lanus
+Patricio Albornoz;Portero;25;1.93;;;;;Lanus
+Felipe Aguilar;Defensa central;25;1.9;derecho;01/07/2022;Club Athletico Paranaense;1300000;Lanus
+Yonathan Cabral;Defensa central;22;1.88;derecho;17/01/2022;Club Atlético Tucumán;1000000;Lanus
+Kevin Lomónaco;Defensa central;21;1.92;derecho;01/01/2022;Club Atlético Lanús Inferiores;650000;Lanus
+Matías Pérez;Defensa central;27;1.77;derecho;01/09/2020;Club Atlético Lanús Inferiores;500000;Lanus
+Diego Braghieri;Defensa central;28;1.86;izquierdo;01/07/2021;CA San Lorenzo de Almagro;375000;Lanus
+Franco Ortellado;Defensa central;23;1.88;izquierdo;;;25000;Lanus
+Juan Pablo Rodríguez;Defensa central;21;1.78;izquierdo;;;;Lanus
+Alexandro Bernabéi;Lateral izquierdo;26;1.69;izquierdo;01/01/2020;Club Atlético Lanús Inferiores;3300000;Lanus
+Nicolás Pasquini;Lateral izquierdo;21;1.77;izquierdo;01/07/2012;Club Atlético Atlanta;1500000;Lanus
+Julián Aude;Lateral izquierdo;22;1.83;izquierdo;10/08/2020;Club Atlético Lanús Inferiores;900000;Lanus
+Lucas Irusta;Lateral izquierdo;34;1.81;izquierdo;;;;Lanus
+Julio Soler;Lateral izquierdo;19;1.75;izquierdo;;;;Lanus
+Braian Aguirre;Lateral derecho;28;1.74;derecho;01/02/2021;Club Atlético Lanús Inferiores;2800000;Lanus
+Leonel Di Placido;Lateral derecho;20;1.76;derecho;24/08/2017;Club Atlético All Boys;750000;Lanus
+Matías Vera;Lateral derecho;18;1.74;;;;25000;Lanus
+Brian Aguilar;Lateral derecho;27;1.79;derecho;01/07/2022;Club Atlético Lanús Inferiores;25000;Lanus
+Juan Martín Ginzo;Lateral derecho;27;1.77;derecho;;;;Lanus
+Tomás Belmonte;Pivote;23;1.78;derecho;01/01/2018;Club Atlético Lanús Inferiores;5500000;Lanus
+Raúl Loaiza;Pivote;21;1.8;derecho;21/06/2022;CSD Defensa y Justicia;700000;Lanus
+Maximiliano González;Pivote;19;1.79;derecho;01/01/2022;Club Atlético Lanús Inferiores;150000;Lanus
+Ignacio Cechi;Pivote;29;1.79;derecho;;;50000;Lanus
+Samuel Careaga;Pivote;19;1.78;izquierdo;01/07/2022;Club Atlético Lanús Inferiores;50000;Lanus
+Facundo Pérez;Mediocentro;32;1.7;derecho;01/09/2020;Club Atlético Lanús Inferiores;750000;Lanus
+Luciano Boggio;Mediocentro;29;1.75;derecho;07/07/2022;Defensor Sporting Club;475000;Lanus
+Agustín Rodríguez;Mediocentro;25;1.71;izquierdo;;;75000;Lanus
+Iván Cazal;Interior derecho;34;1.75;derecho;02/07/2022;Club Sol de América;500000;Lanus
+Diego Váleri;Mediocentro ofensivo;20;1.78;derecho;20/01/2022;Portland Timbers;;Lanus
+Franco Orozco;Extremo izquierdo;21;1.68;derecho;10/08/2020;Club Atlético Lanús Inferiores;1900000;Lanus
+Lautaro Acosta;Extremo izquierdo;35;1.69;derecho;11/07/2013;Sevilla FC;1000000;Lanus
+Mateo Sanabria;Extremo izquierdo;33;1.78;derecho;01/01/2022;Club Atlético Lanús Inferiores;25000;Lanus
+Pedro de la Vega;Extremo derecho;23;1.77;derecho;01/09/2018;Club Atlético Lanús Inferiores;4500000;Lanus
+Ángel González;Extremo derecho;22;1.69;derecho;13/07/2021;Club Estudiantes de La Plata;2300000;Lanus
+Alexis Segovia;Extremo derecho;23;1.78;izquierdo;;;;Lanus
+José Manuel López;Delantero centro;31;1.88;izquierdo;01/01/2021;Club Atlético Lanús Inferiores;8000000;Lanus
+Franco Troyansky;Delantero centro;22;1.78;izquierdo;;;1000000;Lanus
+Juan Pablo Krilanovich;Delantero centro;37;1.79;izquierdo;;;600000;Lanus
+Brian Blando;Delantero centro;22;1.84;derecho;11/07/2022;Argentino Agropecuario;425000;Lanus
+Claudio Spinelli;Delantero centro;22;1.8;derecho;18/03/2022;Libre;400000;Lanus
+Lucas Varaldo;Delantero centro;22;1.76;derecho;01/01/2022;Club Atlético Lanús Inferiores;250000;Lanus
+José Sand;Delantero centro;28;1.82;derecho;01/01/2019;Deportivo Cali;200000;Lanus
+Lautaro Morales;Portero;19;1.87;derecho;05/08/2022;Club Atlético Lanús;2800000;Newell's Old Boys
+Iván Arboleda;Portero;19;1.85;derecho;27/01/2022;Rayo Vallecano;1800000;Newell's Old Boys
+Ramiro Macagno;Portero;17;1.85;derecho;05/02/2021;Atlético de Rafaela;850000;Newell's Old Boys
+Franco Herrera;Portero;21;1.9;derecho;;;25000;Newell's Old Boys
+Felipe San Juan;Portero;28;1.88;derecho;;;25000;Newell's Old Boys
+Gustavo Velázquez;Defensa central;23;1.8;derecho;10/02/2022;FC Juárez;2000000;Newell's Old Boys
+Cristian Lema;Defensa central;19;1.91;derecho;18/02/2021;Libre;1900000;Newell's Old Boys
+Willer Ditta;Defensa central;20;1.79;derecho;01/01/2023;Junior de Barranquilla;1300000;Newell's Old Boys
+Facundo Mansilla;Defensa central;24;1.9;izquierdo;01/07/2021;CA Newell's Old Boys Inferiores;250000;Newell's Old Boys
+Ian Glavinovich;Defensa central;18;1.83;derecho;;;;Newell's Old Boys
+Martín Luciano;Lateral izquierdo;20;1.77;izquierdo;01/01/2022;CA Newell's Old Boys Inferiores;250000;Newell's Old Boys
+Leonel Vangioni;Lateral izquierdo;20;1.81;izquierdo;11/01/2022;Club Libertad Asunción;250000;Newell's Old Boys
+Marco Campagnaro;Lateral izquierdo;22;1.81;izquierdo;;;25000;Newell's Old Boys
+Tomás Berardozzi;Lateral izquierdo;23;1.72;izquierdo;;;;Newell's Old Boys
+Armando Méndez;Lateral derecho;18;1.76;derecho;07/01/2022;Club Nacional;750000;Newell's Old Boys
+Tomás Jacob;Lateral derecho;23;1.8;derecho;;;75000;Newell's Old Boys
+Juan Sforza;Pivote;36;1.79;izquierdo;01/01/2021;CA Newell's Old Boys Inferiores;2800000;Newell's Old Boys
+Julián Rodrigo Fernández;Pivote;20;1.8;derecho;17/07/2019;CD Palestino;750000;Newell's Old Boys
+Jerónimo Cacciabue;Mediocentro;34;1.73;derecho;01/07/2018;CA Newell's Old Boys Inferiores;2100000;Newell's Old Boys
+Cristian Ferreira;Mediocentro;34;1.75;derecho;01/07/2022;CA River Plate;1500000;Newell's Old Boys
+Fabián Ángel;Mediocentro;18;1.75;derecho;01/07/2022;Junior de Barranquilla;900000;Newell's Old Boys
+Pablo Pérez;Mediocentro;21;1.75;derecho;06/02/2020;CA Independiente;375000;Newell's Old Boys
+Marcos Portillo;Mediocentro;28;1.78;derecho;;;25000;Newell's Old Boys
+Marcos Benítez;Mediocentro;18;1.74;derecho;;;;Newell's Old Boys
+David Sotelo;Mediocentro;21;;derecho;;;;Newell's Old Boys
+Marcelo Esponda;Mediocentro;25;1.79;derecho;;;;Newell's Old Boys
+Nicolás Castro;Mediocentro ofensivo;20;1.82;derecho;01/01/2020;CA Newell's Old Boys Inferiores;6500000;Newell's Old Boys
+Guillermo Balzi;Mediocentro ofensivo;27;1.75;izquierdo;01/01/2022;CA Newell's Old Boys Inferiores;25000;Newell's Old Boys
+Francisco González;Extremo izquierdo;25;1.7;ambidiestro;11/08/2020;CA Newell's Old Boys Inferiores;850000;Newell's Old Boys
+Ramiro Sordo;Extremo izquierdo;20;1.74;derecho;01/07/2021;CA Newell's Old Boys Inferiores;400000;Newell's Old Boys
+Brian Aguirre;Extremo izquierdo;41;1.75;derecho;01/07/2022;CA Newell's Old Boys Inferiores;25000;Newell's Old Boys
+Juan Garro;Extremo derecho;24;1.79;derecho;01/07/2021;CA Huracán;900000;Newell's Old Boys
+Justo Giani;Extremo derecho;31;1.8;derecho;24/02/2021;Quilmes Atlético Club;900000;Newell's Old Boys
+Luciano Cingolani;Extremo derecho;37;1.76;derecho;01/01/2022;CA Newell's Old Boys;50000;Newell's Old Boys
+Juan Manuel García;Delantero centro;26;1.83;derecho;26/01/2022;Club Atlético Unión;850000;Newell's Old Boys
+Djorkaeff Reasco;Delantero centro;19;1.72;derecho;10/02/2022;LDU Quito;700000;Newell's Old Boys
+Nazareno Fúnez;Delantero centro;26;1.87;izquierdo;01/07/2022;CA Newell's Old Boys Inferiores;200000;Newell's Old Boys
+Genaro Rossi;Delantero centro;25;1.85;derecho;01/07/2022;CA Newell's Old Boys Inferiores;50000;Newell's Old Boys
+Axel Ojeda;Centrocampista;21;1.69;derecho;;;25000;Newell's Old Boys
+Gabriel Arias;Portero;31;1.89;derecho;03/07/2018;CSD Defensa y Justicia;3200000;Racing
+Gastón Gómez;Portero;32;1.9;derecho;01/07/2017;Racing Club Inferiores;1400000;Racing
+Matías Tagliamonte;Portero;24;1.94;derecho;01/01/2022;Atlético de Rafaela;75000;Racing
+Sergio Juárez;Portero;23;1.84;izquierdo;;;;Racing
+Leonardo Sigali;Defensa central;20;1.81;derecho;19/01/2018;GNK Dinamo Zagreb;2000000;Racing
+Nery Domínguez;Defensa central;20;1.83;derecho;01/01/2019;Querétaro FC;1800000;Racing
+Emiliano Insúa;Defensa central;18;1.79;izquierdo;26/01/2022;Club Atlético Aldosivi;800000;Racing
+Jonathan Galván;Defensa central;35;1.8;derecho;14/07/2022;Argentinos Juniors;650000;Racing
+Lucas Orbán;Defensa central;19;1.79;izquierdo;01/07/2017;Libre;250000;Racing
+Elías Machuca;Defensa central;19;1.8;derecho;;;25000;Racing
+Eugenio Mena;Lateral izquierdo;26;1.73;izquierdo;06/08/2018;Esporte Clube Bahia;2000000;Racing
+Gonzalo Piovi;Lateral izquierdo;18;1.8;izquierdo;08/02/2018;Argentinos Juniors;1000000;Racing
+Gustavo Cortez;Lateral izquierdo;20;1.74;izquierdo;16/09/2021;CD Universidad Católica;500000;Racing
+Fernando Prado;Lateral izquierdo;27;1.76;izquierdo;01/07/2021;Racing Club Inferiores;125000;Racing
+Facundo Mura;Lateral derecho;24;1.7;derecho;13/01/2022;Club Estudiantes de La Plata;3500000;Racing
+Juan José Cáceres;Lateral derecho;22;1.77;derecho;01/09/2020;Racing Club Inferiores;1200000;Racing
+José Luis Gómez;Lateral derecho;21;1.75;derecho;01/07/2013;Racing Club Inferiores;325000;Racing
+Ezequiel Schelotto;Lateral derecho;36;1.87;derecho;04/02/2021;Libre;275000;Racing
+Iván Pillud;Lateral derecho;22;1.8;derecho;08/07/2010;CA Tiro Federal;100000;Racing
+Aníbal Moreno;Pivote;20;1.77;derecho;01/01/2022;CA Racing;6000000;Racing
+Mauricio Martínez;Pivote;18;1.86;derecho;12/07/2018;CA Rosario Central;425000;Racing
+Patricio Tanda;Pivote;19;1.75;izquierdo;;;50000;Racing
+Carlos Alcaraz;Mediocentro;21;1.83;derecho;01/01/2020;Racing Club Inferiores;8000000;Racing
+Leonel Miranda;Mediocentro;20;1.73;derecho;01/07/2020;CSD Defensa y Justicia;2400000;Racing
+Fabricio Domínguez;Mediocentro;21;1.77;derecho;01/07/2018;Racing Club Inferiores;1200000;Racing
+Catriel Cabellos;Mediocentro;22;1.72;derecho;01/07/2023;Racing Club Inferiores;;Racing
+Matías Rojas;Mediocentro ofensivo;19;1.8;izquierdo;01/07/2019;Club Cerro Porteño;3300000;Racing
+Edwin Cardona;Mediocentro ofensivo;29;1.85;derecho;11/01/2022;Club Tijuana;3200000;Racing
+Emiliano Vecchio;Mediocentro ofensivo;23;1.77;derecho;03/06/2022;CA Rosario Central;1200000;Racing
+Jonatan Gómez;Mediocentro ofensivo;21;1.71;derecho;03/01/2023;Argentinos Juniors;675000;Racing
+Nicolás Oroz;Mediocentro ofensivo;29;1.71;izquierdo;01/07/2014;Racing Club Inferiores;500000;Racing
+Gonzalo Córdoba;Mediocentro ofensivo;23;1.6;derecho;;;50000;Racing
+Maico Quiroz;Mediocentro ofensivo;21;1.75;derecho;;;50000;Racing
+Baltasar Rodríguez;Mediocentro ofensivo;20;1.73;derecho;;;;Racing
+Tomás Chancalay;Extremo izquierdo;21;1.79;derecho;01/01/2022;Club Atlético Colón;4000000;Racing
+Johan Carbonero;Extremo izquierdo;28;1.7;derecho;25/06/2022;Club de Gimnasia y Esgrima La Plata;3000000;Racing
+Alexis Cuello;Mediapunta;27;1.7;derecho;;;175000;Racing
+Nicolás Meaurio;Mediapunta;35;;;;;;Racing
+Enzo Copetti;Delantero centro;24;1.8;derecho;01/01/2022;Atlético de Rafaela;3200000;Racing
+Maximiliano Romero;Delantero centro;28;1.8;derecho;25/06/2022;PSV Eindhoven;3000000;Racing
+Javier Correa;Delantero centro;22;1.84;derecho;01/07/2021;Santos Laguna;2000000;Racing
+Gabriel Hauche;Delantero centro;21;1.69;derecho;01/01/2022;Club Atlético Aldosivi;375000;Racing
+Román Fernández;Delantero centro;22;1.72;derecho;;;;Racing
+Emiliano Saliadarre;Delantero centro;23;1.78;izquierdo;;;;Racing
+Leandro Iglesias;Delantero;24;;izquierdo;;;;Rosario Central
+Gaspar Servio;Portero;21;1.85;derecho;03/01/2022;Club Guaraní;1000000;Rosario Central
+Jorge Broun;Portero;23;1.9;derecho;10/02/2021;Club de Gimnasia y Esgrima La Plata;350000;Rosario Central
+Juan Pablo Romero;Portero;22;1.81;derecho;01/09/2020;Club Atlético Rosario Central Inferiores;125000;Rosario Central
+Josué Ayala;Portero;28;1.84;izquierdo;01/07/2019;Club Atlético Temperley;50000;Rosario Central
+Juan Komar;Defensa central;33;1.9;derecho;18/02/2022;Club Atlético Talleres;2500000;Rosario Central
+Facundo Almada;Defensa central;36;1.82;derecho;01/08/2020;Club Atlético Rosario Central Inferiores;750000;Rosario Central
+Cristian Báez;Defensa central;23;1.8;derecho;19/01/2022;Club Libertad Asunción;550000;Rosario Central
+Julián Velázquez;Defensa central;29;1.84;derecho;16/02/2022;Club Tijuana;550000;Rosario Central
+Juan Gabriel Rodríguez;Defensa central;20;1.88;derecho;12/07/2022;CSD Defensa y Justicia;400000;Rosario Central
+Ricardo Garay;Defensa central;19;1.86;derecho;14/07/2021;Club Nacional Asunción;125000;Rosario Central
+Jonatan Bogado;Defensa central;28;1.77;derecho;;;25000;Rosario Central
+Kevin Silva;Defensa central;24;1.85;derecho;;;;Rosario Central
+Lautaro Blanco;Lateral izquierdo;17;1.76;izquierdo;08/08/2022;Elche CF;1500000;Rosario Central
+Marcelo Benítez;Lateral izquierdo;26;1.78;izquierdo;10/02/2022;CSD Defensa y Justicia;625000;Rosario Central
+Nazareno Romero;Lateral izquierdo;29;1.72;izquierdo;09/02/2022;CA Vélez Sarsfield Inferiores;75000;Rosario Central
+Joan Mazzaco;Lateral izquierdo;33;1.74;izquierdo;;;50000;Rosario Central
+Nahuel Franco;Lateral izquierdo;32;1.77;izquierdo;;;50000;Rosario Central
+Fernando Rodríguez;Lateral izquierdo;28;1.82;izquierdo;;;;Rosario Central
+Damián Martínez;Lateral derecho;22;1.77;derecho;23/01/2020;Club Atlético Unión;800000;Rosario Central
+Fernando Torrent;Lateral derecho;20;1.73;derecho;07/09/2020;Defensores de Belgrano;225000;Rosario Central
+Ulises Ciccioli;Lateral derecho;18;1.73;derecho;;;25000;Rosario Central
+Leonel Vergara;Lateral derecho;23;1.75;derecho;;;;Rosario Central
+Ismael Cortéz;Lateral derecho;22;1.85;derecho;01/07/2022;CA Gimnasia y Esgrima Mendoza;;Rosario Central
+Francis Mac Allister;Pivote;21;1.76;derecho;12/06/2022;Club Atlético Talleres;750000;Rosario Central
+Emmanuel Ojeda;Pivote;22;1.8;derecho;01/01/2019;Club Atlético Rosario Central Inferiores;600000;Rosario Central
+Claudio Yacob;Pivote;19;1.82;derecho;03/02/2022;CA Huracán;400000;Rosario Central
+José Leudo;Pivote;26;1.83;derecho;01/07/2022;Boyacá Patriotas FC;200000;Rosario Central
+Mateo Tanlongo;Pivote;23;1.77;derecho;01/01/2022;Club Atlético Rosario Central Inferiores;125000;Rosario Central
+Julio Luques;Pivote;29;1.72;derecho;;;50000;Rosario Central
+Kevin Ortiz;Pivote;35;1.7;derecho;01/07/2022;Club Atlético Rosario Central Inferiores;25000;Rosario Central
+Gino Infantino;Mediocentro;16;1.78;izquierdo;01/07/2021;Club Atlético Rosario Central Inferiores;750000;Rosario Central
+Martín Rabuñal;Mediocentro;20;1.84;derecho;04/03/2021;Defensor Sporting Club;500000;Rosario Central
+Ramiro Peralta;Mediocentro;19;;derecho;;;;Rosario Central
+Juan Cruz Cerrudo;Interior derecho;22;1.68;derecho;;;;Rosario Central
+Francesco Lo Celso;Mediocentro ofensivo;22;1.75;izquierdo;05/06/2019;Club Atlético Rosario Central Inferiores;275000;Rosario Central
+Michael Covea;Mediocentro ofensivo;21;1.77;derecho;30/07/2021;Deportivo Táchira;125000;Rosario Central
+Facundo Buonanotte;Mediocentro ofensivo;26;1.74;izquierdo;01/01/2022;Club Atlético Rosario Central Inferiores;50000;Rosario Central
+Tomás O'Connor;Mediocentro ofensivo;21;;izquierdo;;;;Rosario Central
+Ignacio Malcorra;Extremo izquierdo;27;1.7;izquierdo;25/06/2022;Club Atlético Lanús;1500000;Rosario Central
+Luciano Ferreyra;Extremo izquierdo;21;1.68;derecho;11/08/2020;Club Atlético Rosario Central Inferiores;1300000;Rosario Central
+Walter Montoya;Extremo derecho;22;1.73;derecho;03/01/2022;CD Cruz Azul;1400000;Rosario Central
+Franco Bustos;Extremo derecho;26;1.74;ambidiestro;;;;Rosario Central
+Jhonatan Candia;Delantero centro;33;1.71;derecho;02/07/2022;CA Huracán;1200000;Rosario Central
+Gustavo Ramírez;Delantero centro;26;1.81;derecho;12/07/2022;Deportes Tolima;650000;Rosario Central
+Luca Martínez Dupuy;Delantero centro;24;1.78;derecho;01/01/2021;Club Atlético Rosario Central Inferiores;650000;Rosario Central
+Lucas Gamba;Delantero centro;19;1.84;derecho;01/08/2019;CA Huracán;600000;Rosario Central
+Milton Caraglio;Delantero centro;22;1.87;izquierdo;05/07/2021;Atlas Guadalajara;475000;Rosario Central
+Alejo Véliz;Delantero centro;26;1.86;derecho;01/07/2022;Club Atlético Rosario Central Inferiores;175000;Rosario Central
+Franco Frías;Delantero centro;23;1.74;derecho;01/01/2022;Club Atlético Rosario Central Inferiores;25000;Rosario Central
+Marco Ruben;Delantero centro;20;1.79;derecho;26/01/2021;inactivo;;Rosario Central
+Fabricio Oviedo;Delantero centro;24;1.81;derecho;;;;Rosario Central
+Franco Armani;Portero;24;1.89;derecho;03/01/2018;Atlético Nacional;3500000;River Plate
+Ezequiel Centurión;Portero;22;1.84;derecho;01/01/2022;Libre;300000;River Plate
+Franco Petroli;Portero;29;1.87;izquierdo;01/01/2022;Libre;50000;River Plate
+Paulo Díaz;Defensa central;30;1.82;derecho;01/08/2019;AlAhli SFC;7000000;River Plate
+David Martínez;Defensa central;21;1.85;izquierdo;01/01/2023;CSD Defensa y Justicia;6500000;River Plate
+Robert Rojas;Defensa central;33;1.76;derecho;16/01/2019;Club Guaraní;4500000;River Plate
+Leandro González Pírez;Defensa central;25;1.86;derecho;10/01/2022;Inter Miami CF;1700000;River Plate
+Emanuel Mammana;Defensa central;34;1.83;derecho;10/01/2022;Libre;1500000;River Plate
+Javier Pinola;Defensa central;22;1.8;izquierdo;01/07/2017;CA Rosario Central;175000;River Plate
+Jonatan Maidana;Defensa central;17;1.85;derecho;13/02/2021;Deportivo Toluca FC;175000;River Plate
+Elías Gómez;Lateral izquierdo;21;1.74;izquierdo;27/01/2022;Argentinos Juniors;3200000;River Plate
+Fabrizio Angileri;Lateral izquierdo;22;1.85;izquierdo;01/07/2019;CD Godoy Cruz Antonio Tomba;3000000;River Plate
+Milton Casco;Lateral izquierdo;19;1.69;derecho;10/09/2015;CA Newell's Old Boys;2000000;River Plate
+Andrés Herrera;Lateral derecho;18;1.78;derecho;08/02/2022;CA San Lorenzo de Almagro;3200000;River Plate
+Enzo Fernández;Pivote;26;1.78;derecho;01/07/2021;Libre;15000000;River Plate
+Bruno Zuculini;Pivote;19;1.82;derecho;29/01/2018;Libre.25 mill. €;2000000;River Plate
+Enzo Pérez;Pivote;25;1.79;derecho;01/07/2017;Valencia CF;2000000;River Plate
+Felipe Peña Biafore;Pivote;26;1.8;derecho;01/01/2023;CA River Plate Inferiores;750000;River Plate
+Nicolás de la Cruz;Mediocentro;23;1.67;derecho;15/08/2017;Liverpool FC Montevideo;13000000;River Plate
+Rodrigo Aliendro;Mediocentro;23;1.73;derecho;27/06/2022;Club Atlético Colón;2300000;River Plate
+José Paradela;Mediocentro;24;1.8;izquierdo;15/02/2021;Club de Gimnasia y Esgrima La Plata;1300000;River Plate
+Agustín Palavecino;Mediocentro ofensivo;22;1.79;derecho;12/02/2021;Deportivo Cali;6000000;River Plate
+Juan Fernando Quintero;Mediocentro ofensivo;27;1.69;izquierdo;10/02/2022;Shenzhen FC;5000000;River Plate
+Tomás Pochettino;Mediocentro ofensivo;29;1.8;derecho;10/01/2022;Austin FC;3900000;River Plate
+Esequiel Barco;Extremo izquierdo;20;1.67;derecho;29/01/2022;Atlanta United FC;10000000;River Plate
+Santiago Simón;Extremo derecho;26;1.81;derecho;01/07/2021;Libre;6000000;River Plate
+Pablo Solari;Extremo derecho;27;1.78;derecho;18/07/2022;CSD Colo Colo;1800000;River Plate
+Franco Alfonso;Extremo derecho;18;1.65;derecho;01/01/2023;CA River Plate Inferiores;;River Plate
+Julián Álvarez;Delantero centro;22;1.7;derecho;01/02/2022;Manchester City;23000000;River Plate
+Braian Romero;Delantero centro;23;1.75;derecho;07/07/2021;CSD Defensa y Justicia;4000000;River Plate
+Miguel Borja;Delantero centro;20;1.84;derecho;12/07/2022;Junior de Barranquilla;3700000;River Plate
+Matías Suárez;Delantero centro;23;1.83;derecho;26/01/2019;Club Atlético Belgrano;3000000;River Plate
+Lucas Beltrán;Delantero centro;34;1.76;derecho;01/07/2021;Libre;1500000;River Plate
+Flabián Londoño;Delantero centro;22;1.8;derecho;01/01/2023;CA River Plate Inferiores;50000;River Plate
+Joaquín Panichelli;Delantero centro;19;1.87;derecho;;;;River Plate
+Augusto Batalla;Portero;22;1.86;derecho;26/07/2021;Libre09 mil €;500000;San Lorenzo
+Sebastián Torrico;Portero;31;1.86;derecho;04/07/2013;CD Godoy Cruz Antonio Tomba;100000;San Lorenzo
+Mateo Clemente;Portero;18;1.84;;;;25000;San Lorenzo
+Federico Gattoni;Defensa central;23;1.83;derecho;01/02/2023;Sevilla FC;1700000;San Lorenzo
+Francisco Flores;Defensa central;30;1.81;derecho;01/01/2020;CA San Lorenzo de Almagro Inferiores;1700000;San Lorenzo
+Gastón Campi;Defensa central;26;1.93;izquierdo;11/07/2022;Yeni Malatyaspor;500000;San Lorenzo
+Alejandro Donatti;Defensa central;24;1.92;derecho;24/01/2020;Racing Club;300000;San Lorenzo
+Cristián Zapata;Defensa central;22;1.87;derecho;28/07/2021;Libre;275000;San Lorenzo
+Gastón Hernández;Defensa central;20;1.85;derecho;01/01/2022;CA San Lorenzo de Almagro Inferiores;250000;San Lorenzo
+Diego Calcaterra;Defensa central;22;1.89;derecho;01/07/2022;CA Newell's Old Boys;75000;San Lorenzo
+Jeremías James;Defensa central;27;1.91;izquierdo;01/01/2022;CA San Lorenzo de Almagro Inferiores;25000;San Lorenzo
+Nicolás Fernández Mercau;Lateral izquierdo;25;1.72;izquierdo;01/07/2021;CA San Lorenzo de Almagro Inferiores;2500000;San Lorenzo
+Gabriel Rojas;Lateral izquierdo;27;1.73;izquierdo;01/07/2016;CA San Lorenzo de Almagro Inferiores;1000000;San Lorenzo
+Tomás Silva;Lateral izquierdo;24;1.75;izquierdo;01/01/2022;CA San Lorenzo de Almagro Inferiores;50000;San Lorenzo
+Gino Peruzzi;Lateral derecho;25;1.79;derecho;18/01/2019;CA Boca Juniors;750000;San Lorenzo
+Agustín Peralta Bauer;Lateral derecho;24;1.62;derecho;01/07/2021;CA San Lorenzo de Almagro Inferiores;50000;San Lorenzo
+Gonzalo Luján;Lateral derecho;22;1.84;derecho;01/07/2022;CA San Lorenzo de Almagro Inferiores;50000;San Lorenzo
+Ezequiel Herrera;Lateral derecho;24;1.8;;;;25000;San Lorenzo
+Agustín Giay;Lateral derecho;23;1.8;derecho;01/07/2022;CA San Lorenzo de Almagro Inferiores;;San Lorenzo
+Yeison Gordillo;Pivote;30;1.76;derecho;18/02/2021;Libre;1300000;San Lorenzo
+Siro Rosané;Pivote;31;1.81;derecho;01/03/2021;CA San Lorenzo de Almagro Inferiores;650000;San Lorenzo
+Néstor Ortigoza;Pivote;24;1.8;derecho;01/07/2021;AA Estudiantes Río Cuarto;125000;San Lorenzo
+Elián Irala;Pivote;22;1.76;derecho;01/01/2023;CA San Lorenzo de Almagro Inferiores;;San Lorenzo
+Juan Ignacio Méndez;Mediocentro;20;1.77;derecho;09/07/2022;Club Atlético Talleres;2800000;San Lorenzo
+Jalil Elías;Mediocentro;22;1.75;derecho;10/02/2021;CD Godoy Cruz Antonio Tomba;1200000;San Lorenzo
+Francisco Perruzzi;Mediocentro;21;1.77;derecho;01/07/2022;CA San Lorenzo de Almagro Inferiores;25000;San Lorenzo
+Malcom Braida;Interior izquierdo;20;1.75;derecho;17/01/2022;Instituto AC Córdoba;900000;San Lorenzo
+Gonzalo Maroni;Mediocentro ofensivo;28;1.7;derecho;01/07/2022;CA Boca Juniors;3000000;San Lorenzo
+Agustín Martegani;Mediocentro ofensivo;28;1.85;izquierdo;01/07/2021;CA San Lorenzo de Almagro Inferiores;750000;San Lorenzo
+Alexis Sabella;Mediocentro ofensivo;27;1.78;derecho;01/09/2020;CA San Lorenzo de Almagro Inferiores;650000;San Lorenzo
+Luis Sequeira;Mediocentro ofensivo;20;1.72;derecho;;;200000;San Lorenzo
+Ricardo Centurión;Extremo izquierdo;24;1.74;derecho;19/01/2022;CA Vélez Sarsfield;1500000;San Lorenzo
+Nahuel Barrios;Extremo izquierdo;24;1.56;derecho;01/07/2018;CA San Lorenzo de Almagro Inferiores;900000;San Lorenzo
+Ezequiel Cerutti;Extremo derecho;27;1.79;derecho;01/07/2019;Libre;800000;San Lorenzo
+Iván Leguizamón;Extremo derecho;25;1.74;izquierdo;01/01/2022;CA San Lorenzo de Almagro Inferiores;25000;San Lorenzo
+Nicolás Emanuel Fernández;Delantero centro;22;1.66;derecho;20/01/2020;CSD Defensa y Justicia;2600000;San Lorenzo
+Adam Bareiro;Delantero centro;31;1.84;derecho;01/01/2023;CF Monterrey;2300000;San Lorenzo
+Andrés Vombergar;Delantero centro;31;1.88;derecho;26/07/2022;Atlético de San Luis;800000;San Lorenzo
+Nicolás Blandi;Delantero centro;23;1.8;derecho;11/02/2022;Club Atlético Unión;350000;San Lorenzo
+Agustín Hausch;Delantero centro;19;1.77;derecho;;;175000;San Lorenzo
+Eduardo Garcia;Delantero centro;19;1.73;derecho;;;25000;San Lorenzo
+Matías Hernández;Delantero centro;27;1.78;;;;;San Lorenzo
+Leandro Villar;Centrocampista;34;;;;;25000;Tigre
+Lorenzo Scipioni;Centrocampista;39;;;;;;Tigre
+Manuel Roffo;Portero;19;1.85;derecho;26/03/2021;CA Boca Juniors;650000;Tigre
+Felipe Zenobio;Portero;21;1.83;derecho;01/02/2021;Club Atlético Tigre Inferiores;450000;Tigre
+Gonzalo Marinelli;Portero;28;1.79;derecho;01/07/2018;Libre;350000;Tigre
+Oscar Salomón;Defensa central;24;1.81;derecho;06/01/2022;CA Boca Juniors Inferiores;800000;Tigre
+Nicolás Demartini;Defensa central;21;1.79;izquierdo;07/01/2022;Club Atlético Temperley;700000;Tigre
+Víctor Cabrera;Defensa central;22;1.79;derecho;12/02/2021;Houston Dynamo FC;500000;Tigre
+Abel Luciatti;Defensa central;29;1.79;izquierdo;20/07/2020;CA San Martín Tucumán;400000;Tigre
+Facundo Giacopuzzi;Defensa central;28;1.85;derecho;10/08/2020;Club Atlético Tigre Inferiores;50000;Tigre
+Brian Leizza;Defensa central;21;1.86;;01/07/2022;Club Atlético Tigre Inferiores;25000;Tigre
+Sebastián Prieto;Lateral izquierdo;18;1.75;izquierdo;20/07/2020;Club Atlético Temperley;650000;Tigre
+Diego Sosa;Lateral izquierdo;20;1.77;izquierdo;01/01/2017;Club Atlético Tigre Inferiores;125000;Tigre
+Franco Saavedra;Lateral izquierdo;31;1.78;izquierdo;01/01/2023;Club Atlético Tigre Inferiores;25000;Tigre
+Lucas Blondel;Lateral derecho;29;1.78;derecho;18/02/2021;Atlético de Rafaela;1500000;Tigre
+Martín Ortega;Lateral derecho;21;1.81;derecho;08/07/2022;Quilmes Atlético Club;250000;Tigre
+Sebastián Prediger;Pivote;28;1.83;derecho;10/01/2018;CA San Martín Tucumán;150000;Tigre
+Agustin Baldi;Pivote;25;1.85;izquierdo;01/06/2022;Club Atlético Tigre Inferiores;100000;Tigre
+Alexis Castro;Mediocentro;28;1.83;izquierdo;17/01/2022;CA San Lorenzo de Almagro;2000000;Tigre
+Lucas Menossi;Mediocentro;22;1.69;derecho;06/01/2022;CA San Lorenzo de Almagro;1400000;Tigre
+Cristian Zabala;Mediocentro;20;1.87;derecho;26/10/2020;Quilmes Atlético Club;800000;Tigre
+Mateo Cáceres;Mediocentro;28;1.7;derecho;;;25000;Tigre
+Martín Galmarini;Interior derecho;22;1.8;derecho;18/07/2014;CF Atlante;25000;Tigre
+Matías Espíndola;Mediocentro ofensivo;20;1.77;derecho;;;25000;Tigre
+Ezequiel Forclaz;Mediocentro ofensivo;18;1.73;derecho;;;25000;Tigre
+Agustín Obando;Extremo izquierdo;21;1.76;izquierdo;21/01/2022;CA Boca Juniors;1500000;Tigre
+Blas Armoa;Extremo izquierdo;20;1.79;derecho;03/01/2023;Sportivo Luqueño;475000;Tigre
+Mateo Retegui;Delantero centro;28;1.86;derecho;08/02/2022;CA Boca Juniors;1500000;Tigre
+Pablo Magnin;Delantero centro;23;1.79;derecho;26/08/2020;CA Sarmiento Junín;900000;Tigre
+Facundo Colidio;Delantero centro;29;1.8;derecho;04/01/2022;Inter de Milán;750000;Tigre
+Ijiel Protti;Delantero centro;28;1.74;izquierdo;17/08/2020;Atlético de Rafaela;650000;Tigre
+Gonzalo Flores;Delantero centro;18;1.75;derecho;01/01/2023;Club Atlético Tigre Inferiores;25000;Tigre
+Jonathan Berón;Delantero;28;1.73;derecho;01/07/2023;CA Vélez Sarsfield Inferiores;;Velez Sarsfield
+Lucas Hoyos;Portero;23;1.83;derecho;02/07/2018;Instituto AC Córdoba;800000;Velez Sarsfield
+Leonardo Burián;Portero;24;1.88;derecho;28/06/2022;Club Atlético Colón;725000;Velez Sarsfield
+Carlos Lampe;Portero;29;1.92;derecho;08/07/2021;Club Always Ready;375000;Velez Sarsfield
+Matías Borgogno;Portero;27;1.88;derecho;01/01/2021;CA Vélez Sarsfield Inferiores;100000;Velez Sarsfield
+Emmanuel Gómez Riga;Portero;27;1.86;derecho;;;25000;Velez Sarsfield
+Lautaro Giannetti;Defensa central;34;1.85;derecho;01/07/2015;Libre;4500000;Velez Sarsfield
+Diego Godín;Defensa central;19;1.87;derecho;21/06/2022;Clube Atlético Mineiro;1000000;Velez Sarsfield
+Matías De los Santos;Defensa central;28;1.87;derecho;17/02/2021;Millonarios FC;900000;Velez Sarsfield
+Valentín Gómez;Defensa central;23;1.8;izquierdo;01/01/2022;CA Vélez Sarsfield Inferiores;600000;Velez Sarsfield
+Miguel Brizuela;Defensa central;24;1.82;izquierdo;01/08/2020;CA Vélez Sarsfield Inferiores;475000;Velez Sarsfield
+Yago De Vito;Defensa central;38;1.83;izquierdo;;;25000;Velez Sarsfield
+Damián Fernández;Defensa central;18;1.79;derecho;01/07/2022;CA Vélez Sarsfield Inferiores;10000;Velez Sarsfield
+Patricio Pernicone;Defensa central;22;1.83;;;;;Velez Sarsfield
+Francisco Ortega;Lateral izquierdo;39;1.77;izquierdo;01/01/2018;Libre;4000000;Velez Sarsfield
+Emanuel Insúa;Lateral izquierdo;23;1.82;izquierdo;25/01/2022;AEK Atenas FC;450000;Velez Sarsfield
+Tomás Guidara;Lateral derecho;24;1.73;derecho;01/07/2019;Club Atlético Belgrano;3500000;Velez Sarsfield
+Leonardo Jara;Lateral derecho;27;1.85;derecho;24/07/2021;CA Boca Juniors;475000;Velez Sarsfield
+Joaquín García;Lateral derecho;34;1.82;derecho;;;;Velez Sarsfield
+Santiago Cáseres;Pivote;22;1.79;derecho;19/02/2022;Villarreal CF;4500000;Velez Sarsfield
+Máximo Perrone;Pivote;24;1.77;izquierdo;01/01/2022;CA Vélez Sarsfield Inferiores;2000000;Velez Sarsfield
+Agustín Mulet;Pivote;22;1.79;derecho;01/07/2020;CA Vélez Sarsfield Inferiores;800000;Velez Sarsfield
+Mateo Seoane;Pivote;23;1.78;derecho;01/07/2022;CA Vélez Sarsfield Inferiores;25000;Velez Sarsfield
+José Florentín;Mediocentro;31;1.84;izquierdo;15/01/2022;Club Guaraní;1500000;Velez Sarsfield
+Franco Díaz;Mediocentro;26;1.81;derecho;12/01/2022;Club Atlético Temperley;300000;Velez Sarsfield
+Nicolás Garayalde;Mediocentro;29;1.84;derecho;01/07/2021;CA Vélez Sarsfield Inferiores;300000;Velez Sarsfield
+Christian Ordóñez;Mediocentro;28;1.77;derecho;01/01/2023;CA Vélez Sarsfield Inferiores;;Velez Sarsfield
+Joel Soñora;Mediocentro ofensivo;39;1.73;derecho;01/02/2022;CA Banfield;825000;Velez Sarsfield
+Elías Cabrera;Mediocentro ofensivo;23;1.72;derecho;01/01/2023;CA Vélez Sarsfield Inferiores;;Velez Sarsfield
+Lucas Janson;Extremo izquierdo;19;1.71;derecho;25/07/2019;Club Atlético Tigre;5000000;Velez Sarsfield
+Jonathan Menéndez;Extremo izquierdo;19;1.64;derecho;12/07/2022;Real Salt Lake City;2000000;Velez Sarsfield
+Agustín Bouzat;Extremo izquierdo;17;1.7;izquierdo;01/01/2018;CA Boca Juniors;1300000;Velez Sarsfield
+Lenny Lobato;Extremo izquierdo;22;1.74;izquierdo;01/01/2023;CA Vélez Sarsfield Inferiores;25000;Velez Sarsfield
+Luca Orellano;Extremo derecho;22;1.78;izquierdo;01/07/2019;CA Vélez Sarsfield Inferiores;8000000;Velez Sarsfield
+Julián Fernández;Extremo derecho;33;1.83;izquierdo;01/07/2022;CA Vélez Sarsfield Inferiores;450000;Velez Sarsfield
+Federico Versaci;Extremo derecho;23;1.7;izquierdo;;;50000;Velez Sarsfield
+Gianluca Prestianni;Extremo derecho;22;1.66;derecho;01/01/2023;CA Vélez Sarsfield Inferiores;;Velez Sarsfield
+Walter Bou;Delantero centro;29;1.74;derecho;25/06/2022;CSD Defensa y Justicia;4000000;Velez Sarsfield
+Sebastián Sosa Sánchez;Delantero centro;29;1.87;derecho;20/01/2022;CA Boston River;1300000;Velez Sarsfield
+Lucas Pratto;Delantero centro;21;1.86;derecho;27/08/2021;Libre;450000;Velez Sarsfield
+Santiago Castro;Delantero centro;22;1.79;derecho;01/01/2022;CA Vélez Sarsfield Inferiores;100000;Velez Sarsfield
+Abiel Osorio;Delantero centro;24;1.82;derecho;01/01/2022;CA Vélez Sarsfield Inferiores;25000;Velez Sarsfield
