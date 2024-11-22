@@ -90,8 +90,10 @@ FOR EACH ROW
 EXECUTE FUNCTION validar_dependencia_funcional();
 
 -- IMPORTACIÓN DE DATOS DESDE CSV
+SET datestyle = 'DMY';
+-- IMPORTACIÓN DE DATOS DESDE CSV
 COPY futbolista(nombre, posicion, edad, altura, pie, fichado, equipo_anterior, valor_mercado, equipo)
-FROM 'jugadores-2022.csv'
+FROM '/tmp/jugadores-2022.csv'
 DELIMITER ';' CSV HEADER;
 
 -- ASIGNACIÓN AUTOMÁTICA DE DORSALES
@@ -99,3 +101,70 @@ INSERT INTO dorsal(jugador, dorsal)
 SELECT nombre, asignar_dorsal(equipo, posicion) FROM futbolista;
 
 -- FUNCIÓN PARA ANÁLISIS DE JUGADORES Y EQUIPOS
+DROP FUNCTION IF EXISTS analisis_jugadores(DATE);
+
+CREATE OR REPLACE FUNCTION analisis_jugadores(dia DATE)
+RETURNS TABLE (
+    Variable TEXT,
+    Fecha DATE,
+    Qty INT,
+    Prom_Edad NUMERIC,
+    Prom_Alt NUMERIC,
+    Valor NUMERIC,
+    linea INT
+) AS $$
+BEGIN
+    -- Análisis por pies
+    RETURN QUERY
+    SELECT
+        'Pie ' || pie AS Variable,
+        DATE_TRUNC('month', fichado)::DATE AS Fecha,
+        COUNT(*)::INT AS Qty,
+        AVG(edad) AS Prom_Edad,
+        AVG(altura) AS Prom_Alt,
+        MAX(valor_mercado) AS Valor,
+        ROW_NUMBER() OVER (PARTITION BY pie ORDER BY DATE_TRUNC('month', fichado)::DATE)::INT AS linea
+    FROM futbolista
+    WHERE fichado > dia
+    GROUP BY pie, DATE_TRUNC('month', fichado)
+    ORDER BY pie, Fecha;
+
+    -- Análisis por equipos
+    RETURN QUERY
+    SELECT
+        'Equipo ' || equipo AS Variable,
+        MIN(fichado)::DATE AS Fecha, -- Conversión explícita a DATE
+        COUNT(*)::INT AS Qty, -- Conversión a INT
+        AVG(edad) AS Prom_Edad,
+        AVG(altura) AS Prom_Alt,
+        MAX(valor_mercado) AS Valor,
+        ROW_NUMBER() OVER (ORDER BY MAX(valor_mercado) DESC)::INT AS linea -- Conversión explícita a INT
+    FROM futbolista
+    WHERE fichado > dia
+    GROUP BY equipo
+    ORDER BY Valor DESC;
+
+    -- Análisis por dorsales principales
+    RETURN QUERY
+    SELECT
+        'Dorsal:' || dorsal.dorsal AS Variable,
+        MIN(futbolista.fichado)::DATE AS Fecha,
+        COUNT(*)::INT AS Qty,
+        AVG(futbolista.edad) AS Prom_Edad,
+        AVG(futbolista.altura) FILTER (WHERE futbolista.altura IS NOT NULL) AS Prom_Alt,
+        MAX(futbolista.valor_mercado) FILTER (WHERE futbolista.valor_mercado IS NOT NULL) AS Valor,
+        ROW_NUMBER() OVER (ORDER BY MAX(futbolista.valor_mercado) DESC)::INT AS linea
+    FROM futbolista
+    JOIN dorsal ON futbolista.nombre = dorsal.jugador
+    WHERE futbolista.fichado IS NOT NULL
+    AND futbolista.fichado > dia AND dorsal.dorsal < 13
+    GROUP BY dorsal.dorsal
+    ORDER BY Valor DESC;
+END;
+$$ LANGUAGE plpgsql;
+
+
+SELECT * FROM analisis_jugadores('2022-07-22');
+
+
+
