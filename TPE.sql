@@ -1,6 +1,6 @@
 
 CREATE TABLE futbolista (
-    nombre TEXT PRIMARY KEY,  -- Nombre como clave primaria
+    nombre TEXT PRIMARY KEY,
     posicion TEXT NOT NULL CHECK (posicion IN (
         'Portero', 'Defensa', 'Defensa central', 'Lateral izquierdo',
         'Lateral derecho', 'Pivote', 'Mediocentro', 'Centrocampista',
@@ -109,7 +109,7 @@ EXECUTE FUNCTION validar_dependencia_funcional();
 SET datestyle TO 'DMY';
 
 COPY futbolista(nombre, posicion, edad, altura, pie, fichado, equipo_anterior, valor_mercado, equipo)
-FROM 'jugadores-2022.csv'
+FROM '/tmp/jugadores-2022.csv'
 DELIMITER ';' CSV HEADER;
 
 INSERT INTO dorsal(jugador, dorsal)
@@ -135,7 +135,7 @@ DECLARE
     v_output TEXT;
 
     v_var_width TEXT := '35';
-    v_date_width TEXT := '10';
+    v_date_width TEXT := '15';
     v_qty_width TEXT := '5';
     v_edad_width TEXT := '8';
     v_alt_width TEXT := '8';
@@ -143,12 +143,12 @@ DECLARE
     v_num_width TEXT := '3';
 
 BEGIN
-    RAISE NOTICE '--------------------------------------------------------------------------------------------';
-    RAISE NOTICE '---------------------------------ANALISIS DE JUGADORES Y EQUIPOS ---------------------------';
-    RAISE NOTICE '--------------------------------------------------------------------------------------------';
-    RAISE NOTICE '';
-    RAISE NOTICE 'Variable--------------------------------Fecha-------Qty--Prom_Edad--Prom_Alt--Valor-----#---';
-    RAISE NOTICE '--------------------------------------------------------------------------------------------';
+    RAISE NOTICE 'INFO: -------------------------------------------------------------------------------------------';
+    RAISE NOTICE 'INFO: -----------------------------ANALISIS DE JUGADORES Y EQUIPOS ------------------------------';
+    RAISE NOTICE 'INFO: -------------------------------------------------------------------------------------------';
+    RAISE NOTICE 'INFO: -------------------------------------------------------------------------------------------';
+    RAISE NOTICE 'INFO: Variable------------------------------Fecha----------Qty--Prom_Edad--Prom_Alt--Valor-----#-';
+    RAISE NOTICE 'INFO: -------------------------------------------------------------------------------------------';
 
     FOR v_fecha_min, v_pie, v_qty, v_prom_edad, v_prom_alt, v_max_valor IN
         SELECT
@@ -173,7 +173,7 @@ BEGIN
             v_line_num := v_line_num + 1;
         END IF;
 
-        v_output := format('INFO: %-'||v_var_width||'s %-'||v_date_width||'s %-'||v_qty_width||'s %-'||v_edad_width||'s %-'||v_alt_width||'s %-'||v_valor_width||'s %-'||v_num_width||'s',
+        v_output := format('INFO:   %-'||v_var_width||'s %-'||v_date_width||'s %-'||v_qty_width||'s %-'||v_edad_width||'s %-'||v_alt_width||'s %-'||v_valor_width||'s %-'||v_num_width||'s',
             RPAD('Pie: ' || v_pie, v_var_width::INT, '.'),
             TO_CHAR(v_fecha_min, 'YYYY-MM'),
             v_qty::TEXT,
@@ -186,12 +186,12 @@ BEGIN
         v_pie_anterior := v_pie;
     END LOOP;
 
-    RAISE NOTICE '--------------------------------------------------------------------------------------------';
+    RAISE NOTICE 'INFO:  ------------------------------------------------------------------------------------------';
     v_line_num := 0;
     FOR v_equipo, v_fecha_min, v_qty, v_prom_edad, v_prom_alt, v_max_valor IN
         SELECT
             equipo,
-            TO_DATE(TO_CHAR(MIN(fichado), 'YYYY-MM-DD'), 'YYYY-MM') AS fecha_min,
+            TO_DATE(TO_CHAR(MIN(fichado), 'YYYY-MM-DD'), 'YYYY-MM-DD') AS fecha_min,
             COUNT(*) AS qty,
             ROUND(AVG(edad), 1) AS prom_edad,
             ROUND(AVG(altura), 2) AS prom_alt,
@@ -206,9 +206,9 @@ BEGIN
         ORDER BY max_valor DESC
     LOOP
         v_line_num:= v_line_num + 1;
-        v_output := format('INFO: %-'||v_var_width||'s %-'||v_date_width||'s %-'||v_qty_width||'s %-'||v_edad_width||'s %-'||v_alt_width||'s %-'||v_valor_width||'s %-'||v_num_width||'s',
+        v_output := format('INFO:   %-'||v_var_width||'s %-'||v_date_width||'s %-'||v_qty_width||'s %-'||v_edad_width||'s %-'||v_alt_width||'s %-'||v_valor_width||'s %-'||v_num_width||'s',
             RPAD(v_equipo, v_var_width::INT, '.'),
-            TO_CHAR(v_fecha_min, 'YYYY-MM'),
+            TO_CHAR(v_fecha_min, 'YYYY-MM-DD'),
             v_qty::TEXT,
             v_prom_edad::TEXT,
             v_prom_alt::TEXT,
@@ -218,12 +218,12 @@ BEGIN
         RAISE NOTICE '%', v_output;
     END LOOP;
 
-    RAISE NOTICE '--------------------------------------------------------------------------------------------';
+    RAISE NOTICE 'INFO:  ------------------------------------------------------------------------------------------';
     v_line_num := 0;
     FOR v_dorsal, v_fecha_min, v_qty, v_prom_edad, v_prom_alt, v_max_valor IN
         SELECT
             d.dorsal,
-            TO_DATE(TO_CHAR(MIN(f.fichado), 'YYYY-MM-DD'), 'YYYY-MM') AS fecha_min,
+            TO_DATE(TO_CHAR(MIN(f.fichado), 'YYYY-MM-DD'), 'YYYY-MM-DD') AS fecha_min,
             COUNT(*) AS qty,
             ROUND(AVG(f.edad), 1) AS prom_edad,
             ROUND(AVG(f.altura), 2) AS prom_alt,
@@ -239,9 +239,9 @@ BEGIN
         ORDER BY max_valor DESC
     LOOP
         v_line_num := v_line_num + 1;
-        v_output := format('INFO: %-'||v_var_width||'s %-'||v_date_width||'s %-'||v_qty_width||'s %-'||v_edad_width||'s %-'||v_alt_width||'s %-'||v_valor_width||'s %-'||v_num_width||'s',
+        v_output := format('INFO:   %-'||v_var_width||'s %-'||v_date_width||'s %-'||v_qty_width||'s %-'||v_edad_width||'s %-'||v_alt_width||'s %-'||v_valor_width||'s %-'||v_num_width||'s',
             RPAD('Dorsal: ' || v_dorsal::TEXT, v_var_width::INT, '.'),
-            TO_CHAR(v_fecha_min, 'YYYY-MM'),
+            TO_CHAR(v_fecha_min, 'YYYY-MM-DD'),
             v_qty::TEXT,
             v_prom_edad::TEXT,
             v_prom_alt::TEXT,
@@ -251,7 +251,7 @@ BEGIN
         RAISE NOTICE '%', v_output;
     END LOOP;
 
-    RAISE NOTICE '--------------------------------------------------------------------------------------------';
+    RAISE NOTICE 'INFO:  ------------------------------------------------------------------------------------------';
 END;
 $$ LANGUAGE plpgsql;
 
