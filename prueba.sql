@@ -187,7 +187,7 @@ BEGIN
     END LOOP;
 
     RAISE NOTICE '--------------------------------------------------------------------------------------------';
-    v_line_num := 0;
+
     FOR v_equipo, v_fecha_min, v_qty, v_prom_edad, v_prom_alt, v_max_valor IN
         SELECT
             equipo,
@@ -205,7 +205,6 @@ BEGIN
         GROUP BY equipo
         ORDER BY max_valor DESC
     LOOP
-        v_line_num:= v_line_num + 1;
         v_output := format('INFO: %-'||v_var_width||'s %-'||v_date_width||'s %-'||v_qty_width||'s %-'||v_edad_width||'s %-'||v_alt_width||'s %-'||v_valor_width||'s %-'||v_num_width||'s',
             RPAD(v_equipo, v_var_width::INT, '.'),
             TO_CHAR(v_fecha_min, 'YYYY-MM'),
@@ -213,13 +212,13 @@ BEGIN
             v_prom_edad::TEXT,
             v_prom_alt::TEXT,
             v_max_valor::TEXT,
-            v_line_num::TEXT);
+            ROW_NUMBER() OVER());
 
         RAISE NOTICE '%', v_output;
     END LOOP;
 
     RAISE NOTICE '--------------------------------------------------------------------------------------------';
-    v_line_num := 0;
+
     FOR v_dorsal, v_fecha_min, v_qty, v_prom_edad, v_prom_alt, v_max_valor IN
         SELECT
             d.dorsal,
@@ -238,7 +237,6 @@ BEGIN
         GROUP BY d.dorsal
         ORDER BY max_valor DESC
     LOOP
-        v_line_num := v_line_num + 1;
         v_output := format('INFO: %-'||v_var_width||'s %-'||v_date_width||'s %-'||v_qty_width||'s %-'||v_edad_width||'s %-'||v_alt_width||'s %-'||v_valor_width||'s %-'||v_num_width||'s',
             RPAD('Dorsal: ' || v_dorsal::TEXT, v_var_width::INT, '.'),
             TO_CHAR(v_fecha_min, 'YYYY-MM'),
@@ -246,7 +244,7 @@ BEGIN
             v_prom_edad::TEXT,
             v_prom_alt::TEXT,
             v_max_valor::TEXT,
-            v_line_num);
+            ROW_NUMBER() OVER());
 
         RAISE NOTICE '%', v_output;
     END LOOP;
@@ -257,5 +255,3 @@ $$ LANGUAGE plpgsql;
 
 
 SELECT analisis_jugadores('22/07/2022');
-
-
