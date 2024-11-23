@@ -1,4 +1,4 @@
-
+--Creación de Tablas--
 CREATE TABLE futbolista (
     nombre TEXT PRIMARY KEY,
     posicion TEXT NOT NULL CHECK (posicion IN (
@@ -17,7 +17,6 @@ CREATE TABLE futbolista (
     equipo TEXT
 );
 
--- Tabla dorsal
 CREATE TABLE dorsal (
     jugador TEXT PRIMARY KEY REFERENCES futbolista(nombre),
     dorsal INT NOT NULL CHECK (dorsal BETWEEN 1 AND 99)
@@ -84,6 +83,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+--Validación Dependecias Funcionales--
 CREATE OR REPLACE FUNCTION validar_dependencia_funcional() RETURNS TRIGGER AS $$
 BEGIN
     IF EXISTS (
@@ -106,6 +106,7 @@ BEFORE INSERT ON dorsal
 FOR EACH ROW
 EXECUTE FUNCTION validar_dependencia_funcional();
 
+--Extracción de información del CSV--
 SET datestyle TO 'DMY';
 
 COPY futbolista(nombre, posicion, edad, altura, pie, fichado, equipo_anterior, valor_mercado, equipo)
@@ -116,6 +117,7 @@ INSERT INTO dorsal(jugador, dorsal)
 SELECT nombre, asignar_dorsal(equipo, posicion)
 FROM futbolista;
 
+--Analisis de Jugadores--
 DROP FUNCTION IF EXISTS analisis_jugadores(DATE);
 
 CREATE OR REPLACE FUNCTION analisis_jugadores(dia DATE)
@@ -254,8 +256,4 @@ BEGIN
     RAISE NOTICE 'INFO:  ------------------------------------------------------------------------------------------';
 END;
 $$ LANGUAGE plpgsql;
-
-
-SELECT analisis_jugadores('22/07/2022');
-
 
