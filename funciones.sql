@@ -22,66 +22,89 @@ CREATE TABLE dorsal (
     dorsal INT NOT NULL CHECK (dorsal BETWEEN 1 AND 99)
 );
 
-CREATE OR REPLACE FUNCTION asignar_dorsal(nombre_equipo TEXT, posicion TEXT) RETURNS INT AS $$
+-- Función para asignar dorsal
+CREATE OR REPLACE FUNCTION asignar_dorsal()
+RETURNS TRIGGER AS $$
 DECLARE
-    numero INT;
+    preferred_dorsals INT[];
+    assigned_dorsal INT := NULL;
+    dorsal_candidate INT;
+    equipo_actual TEXT;
 BEGIN
-    CASE
-        WHEN posicion = 'Portero' THEN
-            numero := CASE WHEN NOT EXISTS (
-                SELECT 1 FROM dorsal d
-                JOIN futbolista f ON d.jugador = f.nombre
-                WHERE f.equipo = nombre_equipo AND d.dorsal = 1
-            ) THEN 1 ELSE 12 END;
+    SELECT equipo INTO equipo_actual
+    FROM futbolista
+    WHERE nombre = NEW.nombre;
 
-        WHEN posicion IN ('Defensa', 'Defensa central') THEN
-            numero := CASE WHEN NOT EXISTS (
-                SELECT 1 FROM dorsal d
-                JOIN futbolista f ON d.jugador = f.nombre
-                WHERE f.equipo = nombre_equipo AND d.dorsal = 2
-            ) THEN 2 ELSE 6 END;
-
-        WHEN posicion = 'Lateral izquierdo' THEN numero := 3;
-        WHEN posicion = 'Lateral derecho' THEN numero := 4;
-        WHEN posicion = 'Pivote' THEN numero := 5;
-
-        WHEN posicion IN ('Mediocentro', 'Centrocampista', 'Interior derecho', 'Interior izquierdo') THEN
-            numero := 8;
-
-        WHEN posicion IN ('Mediocentro ofensivo', 'Mediapunta') THEN numero := 10;
-
-        WHEN posicion IN ('Extremo derecho', 'Extremo izquierdo') THEN
-            numero := CASE WHEN NOT EXISTS (
-                SELECT 1 FROM dorsal d
-                JOIN futbolista f ON d.jugador = f.nombre
-                WHERE f.equipo = nombre_equipo AND d.dorsal IN (7, 11)
-            ) THEN 7 ELSE 11 END;
-
-        WHEN posicion IN ('Delantero', 'Delantero centro') THEN numero := 9;
-        ELSE numero := 13;
+    CASE TRIM(LOWER(NEW.posicion))
+        WHEN 'portero' THEN
+            preferred_dorsals := ARRAY[1, 12];
+        WHEN 'defensa', 'defensa central' THEN
+            preferred_dorsals := ARRAY[2, 6];
+        WHEN 'lateral izquierdo' THEN
+            preferred_dorsals := ARRAY[3];
+        WHEN 'lateral derecho' THEN
+            preferred_dorsals := ARRAY[4];
+        WHEN 'pivote' THEN
+            preferred_dorsals := ARRAY[5];
+        WHEN 'mediocentro', 'centrocampista', 'interior derecho', 'interior izquierdo' THEN
+            preferred_dorsals := ARRAY[8];
+        WHEN 'mediocentro ofensivo', 'mediapunta' THEN
+            preferred_dorsals := ARRAY[10];
+        WHEN 'extremo derecho' THEN
+            preferred_dorsals := ARRAY[7, 11];
+        WHEN 'extremo izquierdo' THEN
+            preferred_dorsals := ARRAY[7, 11];
+        WHEN 'delantero', 'delantero centro' THEN
+            preferred_dorsals := ARRAY[9];
+        ELSE
+            preferred_dorsals := ARRAY[]::INT[];
     END CASE;
 
-    IF EXISTS (
-        SELECT 1 FROM dorsal d
-        JOIN futbolista f ON d.jugador = f.nombre
-        WHERE f.equipo = nombre_equipo AND d.dorsal = numero
-    ) THEN
-        numero := 13;
-        LOOP
+    assigned_dorsal := NULL;
+    FOREACH dorsal_candidate IN ARRAY preferred_dorsals LOOP
+        IF NOT EXISTS (
+            SELECT 1
+            FROM dorsal d
+            JOIN futbolista f ON d.jugador = f.nombre
+            WHERE f.equipo = equipo_actual AND d.dorsal = dorsal_candidate
+        ) THEN
+            assigned_dorsal := dorsal_candidate;
+            EXIT;
+        END IF;
+    END LOOP;
+
+    IF assigned_dorsal IS NULL THEN
+        FOR dorsal_candidate IN 13..99 LOOP
             IF NOT EXISTS (
-                SELECT 1 FROM dorsal d
+                SELECT 1
+                FROM dorsal d
                 JOIN futbolista f ON d.jugador = f.nombre
-                WHERE f.equipo = nombre_equipo AND d.dorsal = numero
+                WHERE f.equipo = equipo_actual AND d.dorsal = dorsal_candidate
             ) THEN
+                assigned_dorsal := dorsal_candidate;
                 EXIT;
             END IF;
-            numero := numero + 1;
         END LOOP;
     END IF;
 
-    RETURN numero;
+    IF assigned_dorsal IS NULL THEN
+        RAISE EXCEPTION 'No hay dorsales disponibles para el jugador % en el equipo %', NEW.nombre, equipo_actual;
+    END IF;
+
+    INSERT INTO dorsal (jugador, dorsal)
+    VALUES (NEW.nombre, assigned_dorsal);
+
+    RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
+
+-- Creación del trigger para asignar dorsal automáticamente después de insertar en futbolista
+DROP TRIGGER IF EXISTS asignar_dorsal_trigger ON futbolista;
+
+CREATE TRIGGER asignar_dorsal_trigger
+AFTER INSERT ON futbolista
+FOR EACH ROW
+EXECUTE FUNCTION asignar_dorsal();
 
 --Validación Dependecias Funcionales--
 CREATE OR REPLACE FUNCTION validar_dependencia_funcional() RETURNS TRIGGER AS $$
@@ -110,12 +133,8 @@ EXECUTE FUNCTION validar_dependencia_funcional();
 SET datestyle TO 'DMY';
 
 COPY futbolista(nombre, posicion, edad, altura, pie, fichado, equipo_anterior, valor_mercado, equipo)
-FROM '/tmp/jugadores-2022.csv'
+FROM 'jugadores-2022.csv'
 DELIMITER ';' CSV HEADER;
-
-INSERT INTO dorsal(jugador, dorsal)
-SELECT nombre, asignar_dorsal(equipo, posicion)
-FROM futbolista;
 
 --Analisis de Jugadores--
 DROP FUNCTION IF EXISTS analisis_jugadores(DATE);
@@ -257,3 +276,4 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+SELECT  analisis_jugadores('22/07/2022')
